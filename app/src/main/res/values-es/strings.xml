@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reglamentos de F1</string>
+    <string name="tech">Técnico</string>
+    <string name="sport">Deportivo</string>
+    <string name="fin">Financiero</string>
+</resources>
