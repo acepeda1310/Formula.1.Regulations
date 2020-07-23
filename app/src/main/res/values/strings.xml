@@ -3,4 +3,7 @@
     <string name="tech">Technical</string>
     <string name="sport">Sporting</string>
     <string name="fin">Financial</string>
+    <string name="actualYear" translatable="false">2020</string>
+    <string name="nextYear" translatable="false">2021</string>
+    <string name="farFuture" translatable="false">2022</string>
 </resources>
