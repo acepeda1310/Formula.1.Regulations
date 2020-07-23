@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     internal lateinit var buttonFin:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTitle(R.string.app_name)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         buttonTech = findViewById(R.id.buttonTech)

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Reglamentos de F1</string>
+    <string name="app_name">Reglamentos de la Fórmula 1</string>
     <string name="tech">Técnico</string>
     <string name="sport">Deportivo</string>
     <string name="fin">Financiero</string>
+    <string name="techTitle">Reglamento técnico de la Fórmula 1</string>
+    <string name="sportTitle">Reglamento deportivo de la Fórmula 1</string>
+    <string name="finTitle">Reglamento financiero de la Fórmula 1</string>
 </resources>

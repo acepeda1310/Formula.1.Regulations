@@ -6,4 +6,7 @@
     <string name="actualYear" translatable="false">2020</string>
     <string name="nextYear" translatable="false">2021</string>
     <string name="farFuture" translatable="false">2022</string>
+    <string name="techTitle">Formula 1 Technical Regulations</string>
+    <string name="sportTitle">Formula 1 Sporting Regulations</string>
+    <string name="finTitle">Formula 1 Financial Regulations</string>
 </resources>
