@@ -7,4 +7,9 @@
     <string name="techTitle">Reglamento técnico de la Fórmula 1</string>
     <string name="sportTitle">Reglamento deportivo de la Fórmula 1</string>
     <string name="finTitle">Reglamento financiero de la Fórmula 1</string>
+    <string-array name="tech_20">
+        <item>DEFINICIONES %s Coche de Fórmula Uno %c Un vehículo diseñado exclusivamente para carreras de velocidad en circuitos o pistas cerradas. $s Vehículo %c Un vehículo terrestre que rueda con al menos 4 ruedas completas, de las cuales al menos dos  se usan para girar y al menos dos para la propulsión.</item>
+        <item>PRINCIPIOS GENERALES %s Rol de la FIA $c El siguiente reglamento técnico para la Fórmula Uno ha sido lanzado por la FIA. %s Enmiendas al reglamento %c Este Reglamento Técnico es de aplicación al Campeonato que tenga lugar en el año referido en el título ("el Campeonato") y sólo puede ser cambiado tras el 30 de abril del año anterior mediante el acuerdo unánime de todos los competidores, exceptuando los cambios hechos por la FIA por motivos de seguridad, que tendrán lugar sin notificación ni retrasos.</item>
+    </string-array>
+    <string name="techTitle20">Reglamento técnico de la Fórmula 1 de 2020</string>
 </resources>

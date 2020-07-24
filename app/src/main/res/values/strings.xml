@@ -9,4 +9,9 @@
     <string name="techTitle">Formula 1 Technical Regulations</string>
     <string name="sportTitle">Formula 1 Sporting Regulations</string>
     <string name="finTitle">Formula 1 Financial Regulations</string>
+    <string-array name="tech_20">
+        <item>DEFINITIONS %s Formula One Car %c An automobile designed solely for speed races on circuits or closed courses. $s Automobile %c A land vehicle running on at least four non-aligned complete wheels, of which at least two are used for steering and at least two for propulsion.</item>
+        <item>GENERAL PRINCIPLES %s Role of the FIA %c The following technical regulations for Formula One cars are issued by the FIA. %s Amendments to the regulations %c These Technical Regulations apply to the Championship taking place in the calendar year referred to in the title (“the Championship”) and may only be changed after 30 April of the preceding year with the unanimous agreement of all competitors, save for changes made by the FIA for safety reasons which may come into effect without notice or delay.</item>
+    </string-array>
+    <string name="techTitle20">2020 Formula 1 Technical Regulations</string>
 </resources>
