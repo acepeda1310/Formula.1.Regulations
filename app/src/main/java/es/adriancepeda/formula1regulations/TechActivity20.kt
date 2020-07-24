@@ -38,7 +38,9 @@ class TechActivity20 : AppCompatActivity() {
             textView.setText((i+1).toString()+". "+article[0])
             textView.setPadding(15,15,15,15)
             textView.setOnClickListener{
-                val intent= Intent(this, MainActivity::class.java)
+                val intent= Intent(this, ArticleListActivity::class.java)
+                intent.putExtra("number", (i+1).toString())
+                intent.putExtra("title", (i+1).toString()+". "+article[0])
                 intent.putExtra("text", text[i])
                 startActivity(intent)
             }
