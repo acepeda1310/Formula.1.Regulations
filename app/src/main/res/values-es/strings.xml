@@ -17,6 +17,7 @@
 	            %c Un dispositivo locomotriz propulsado por sus propios medios, cuyo movimiento se produce al apoyarse en la superficie terrestre, y en el que la propulsión y dirección están bajo el control de un piloto a bordo del vehículo.
 			<!--1.4-->%s Carrocería
 	            %c Todas las partes del coche en contacto con el flujo de aire externo, excepto las cámaras, carcasas de cámaras, espejos retrovisores definidos en el artículo 14.3, luces de estado del ERS, la estructura antivuelco secundaria y sus anclajes asociados, y las partes asociadas con el funcionamiento mecánico del motor, transmisión y marcha engranada. Las tomas de aire, radiadores y escapes del motor se consideran parte de la carrocería.
+					%r14.3,tech20,14,3
 			<!--1.5-->%s Rueda
 	            %c Tuerca y llanta.
 			<!--1.6-->%s Rueda completa
@@ -37,10 +38,52 @@
 	            %c Donde las ruedas completas se suspenden de una unidad que se comprime en la célula de supervivencia\/unidad de potencia\/caja de cambios mediante muelles.
 			<!--1.14-->%s Célula de supervivencia
 	            %c Una estructura cerrada y continua que contiene el tanque de combustible, el cockpit y las partes del sistema eléctrico listadas en el Artítulo 5.12.7.
+					%r5.12,tech20,5,12
 			<!--1.15-->%s Cámara
 	            %c Cámaras de televisión, cuyas dimensiones están definidas en el Plano 6.
+					%Plano 6,tech20,24,6
 			<!--1.16-->%s Carcasa de cámara
 	            %c  Dispositivo idéntico en forma y peso a una cámara, y que será llevado por un competidor en su coche en ausencia de una cámara.
+			<!--1.17-->%s Relleno del cockpit
+				%c Partes no estructurales situadas en el cockpit con el único propósito de dar al piloto confort y seguridad. Todos estos materiales deben poderse extraer rápido sin necesidad del uso de herramientas.
+			<!--1.18-->%s Pinza de freno
+				%c Todas las partes del sistema de frenado fuera de la célula de supervivencia, tales como discos de freno, pastillas de freno, pistones de las pinzas, componentes directamente asociados con el sistema y referenciados en el Artículo 11.9, carcasas de frenos... que sufren de estrés cuando se someten a presión de frenado. Las correas y bridas usadas para anclajes no se consideran parte del sistema de frenado.
+					%r11.9,tech20,11,9
+			<!--1.19-->%s Control electrónico
+				%c Todo sistema de comando o proceso que utilice tecnología de semi-conductores o termoiónica.
+			<!--1.20-->%s Secciones abiertas y cerradas
+				%c Una sección se considerará cerrada si se encuentra al completo dentro del perímetro dimensionado en el que está referenciada, en caso contrario se considerará abierta.
+			<!--1.21-->%s Tren de potencia
+				%c La unidad de potencia y los sistemas asociados de transmisión de par, hasta los ejes de accionamiento (no incluidos).
+			<!--1.22-->%s Unidad de potencia
+				%c El motor de combustión interna, completo con sus sistemas auxiliares, cualquier sistema de recuperación de energía y todos los sistemas de accionamiento necesarios para que funcione en todo momento.
+			<!--1.23-->%s Motor
+				%c Motor de combustión interna, incluyendo los sistemas auxiliares y de accionamiento necesarios para que cumpla su función.
+			<!--1.24-->%s Sistema de Recuperación de Energía (ERS)
+				%c Un sistema diseñado para recuperar energía de un coche, almacenar dicha energía y ponerla a disposición del coche y, opcionalmente, accionar cualquier sistema auxiliar y de accionamiento necesarios para que cumpla su función.
+			<!--1.25-->%s Unidad moto-generadora de energía cinética (MGU-K)
+				%c La unidad moto-generadora de energía cinética es la máquina eléctrica mecánicamente asociada al tren de potencia como parte del ERS.
+			<!--1.26-->%s Unidad moto-generadora de energía térmica (MGU-H)
+				%c La unidad moto-generadora de energía térmica es la máquina eléctrica asociada a la turbina del escape o al sistema de sobrecarga a presión como parte del ERS.
+			<!--1.27-->%s Almacén de energía (ES)
+				%c La parte del ERS que almacena energía, incluyendo su electrónica de control de seguridad y una carcasa mínima.
+			<!--1.28-->%s Entrada del compresor
+				%c Un componente que contiene un conducto de sección cerrada a través del cual todo el aire destinado a la combustion entra a cualquier compresor\; el conducto se debe extender aguas arriba de cualquier parte o dispositivo de geometría variable permitidos por el Artículo 5.9.
+					%r5.9,tech20,5,9
+			<!--1.29-->%s Salida del compresor
+				%c Un compoennte que contiene un conducto de sección cerrada a través del cual todo el aire destinado a la combustión sale del compresor.
+			<!--1.30-->%s Cámara de combustión
+				%c Lugar cerrado en el cilindro del motor, controlado por la apertura o cierre de válvulas de asiento, donde tiene lugar la combustión.
+			<!--1.31-->%s Inyector de combustible
+				%c Cualquier dispositivo o componente que entrega combustible en un oxidante.
+			<!--1.32-->%s Tanque de aceite auxiliar (AOT)
+				%c Un tanque de aceite auxiliar (AOT) es un depósito único conectado al motor, cuya única función es mantener el aceite del motor durante el acto de reposición del sistema de lubricación del motor.
+			<!--1.33-->$s Sistema de escape del motor
+				%c Conjunto de piezas que convergen los gases de escape del motor desde la brida de escape del motor hasta una turbina y\/o válvula de descarga (no incluidas). Tampoco incluye los conductos de salida de la turbina o la válvula de descarga. Un conjunto contempla tanto el sistema derecho como el izquierdo.
+			<!--1.34-->%s Electrónica de control de la unidad de potencia (PU-CE)
+				%c Cualquier componente usado para controlar los subsistemas de la Unidad de Potencia y que contenga semiconductores programables o dispositivos de corte de alta potencia.
+				%p Incluye, entre otros, la unidad de control del MGU-K, unidad de control de inyección, unidad de control de encendido...
+				%p Se excluye cualquier ECU (centralita) de la FIA, sensores de la FIA y electrónica de control de seguridad del ES.
 	    </item>
 		<item>PRINCIPIOS GENERALES
 			<!--2.1-->%s Rol de la FIA
