@@ -4,10 +4,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
+import android.util.Log
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toolbar
 import androidx.core.content.ContextCompat
+import java.lang.Exception
 
 class ArticleActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,7 +32,11 @@ class ArticleActivity : AppCompatActivity() {
             textView.setText(Html.fromHtml(references[0]))
             textView.setPadding(15,15,15,15)
             content.addView(textView)
-            if (references.size>1) showReferences(references, content)
+            try {
+                if (references.size > 1) showReferences(references, content)
+            } catch (e:Exception){
+                Log.e(null, "Non existent article")
+            }
         }
     }
 
@@ -40,7 +46,7 @@ class ArticleActivity : AppCompatActivity() {
             val separatedReferences=noSpaces.split(",")
             val tvReferences = TextView(this)
             tvReferences.setPadding(15,15,15,15)
-            if (i==0) tvReferences.setText(R.string.references)
+            if (i==0) tvReferences.setText(Html.fromHtml("<b>"+R.string.references+"</b>"))
             else {
                 tvReferences.setText(separatedReferences[0])
                 var completeRegulations=""
