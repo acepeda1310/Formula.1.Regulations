@@ -7,47 +7,47 @@
     <string name="techTitle">Reglamento técnico de la Fórmula 1</string>
     <string name="sportTitle">Reglamento deportivo de la Fórmula 1</string>
     <string name="finTitle">Reglamento financiero de la Fórmula 1</string>
-    <string-array name="tech_20">
+	<string-array name="tech_20">
 	    <item>DEFINICIONES
-            <!--1.1-->%s Coche de Fórmula Uno
+			<!--1.1-->%s Coche de Fórmula Uno
 	            %c Un vehículo diseñado exclusivamente para carreras de velocidad en circuitos o pistas cerradas.
-            <!--1.2-->%s Vehículo
+			<!--1.2-->%s Vehículo
 	            %c Un vehículo terrestre que rueda con al menos 4 ruedas completas, de las cuales al menos dos  se usan para girar y al menos dos para la propulsión.
-            <!--1.3-->%s Vehículo terrestre
+			<!--1.3-->%s Vehículo terrestre
 	            %c Un dispositivo locomotriz propulsado por sus propios medios, cuyo movimiento se produce al apoyarse en la superficie terrestre, y en el que la propulsión y dirección están bajo el control de un piloto a bordo del vehículo.
-            <!--1.4-->%s Carrocería
+			<!--1.4-->%s Carrocería
 	            %c Todas las partes del coche en contacto con el flujo de aire externo, excepto las cámaras, carcasas de cámaras, espejos retrovisores definidos en el artículo 14.3, luces de estado del ERS, la estructura antivuelco secundaria y sus anclajes asociados, y las partes asociadas con el funcionamiento mecánico del motor, transmisión y marcha engranada. Las tomas de aire, radiadores y escapes del motor se consideran parte de la carrocería.
-            <!--1.5-->%s Rueda
+			<!--1.5-->%s Rueda
 	            %c Tuerca y llanta.
-            <!--1.6-->%s Rueda completa
+			<!--1.6-->%s Rueda completa
 	            %c Rueda y neumático inflado. La rueda completa se considera parte del sistema de suspensión.
-            <!--1.7-->%s Vehículo fabricante
+			<!--1.7-->%s Vehículo fabricante
 	            %c En el contexto de los coches de Fórmula 1, un vehículo fabricante es un vehículo completo. Cuando el fabricante pone un motor que no ha fabricado, el coche se considerará híbrido y el nombre del fabricante del motor se asociará con el del fabricante del automóvil. El nombre del fabricante del coche siempre precederá al del fabricante del motor. Si un coche híbrido gana un Título de Campeón, Copa o Trofeo, este se dará al fabricante del vehículo.
-            <!--1.8-->%s Evento
+			<!--1.8-->%s Evento
 	            %c Cualquier evento que esté en el Calendario del Campeonato FIA de F1 en cualquier año, comenzando 24 horas antes de la hora programada de la primera práctica e incluyendo todas las prácticas, así como la carrera, y terminando más adelante para dar cabida a las protestas bajo los términos del Reglamento Deportivo, así como dar tiempo para verificaciones técnicas o deportivas bajo los términos de dicho Código.
-            <!--1.9-->%s Peso
+			<!--1.9-->%s Peso
 	            %c Es el peso del coche con el piloto, llevando su indumentaria de carrera al completo, en cualquier momento durante el Evento.
-            <!--1.10-->%s Cilindrada
+			<!--1.10-->%s Cilindrada
 	            %c El volumen desplazado en los cilindros del motor por el movimiento de los pistones. Este volumen se expresará en centímetros cúbicos. A la hora de calcular la cilindrada, el número PI deberá ser 3.1416.
-            <!--1.11-->%s Sobrecarga
+			<!--1.11-->%s Sobrecarga
 	            %c Incremento del volumen de carga de la mezcla aire/combustible en la cámara de combustión (sobre el volumen introducido por la presión atmosférica normal, por efecto del movimiento y efectos dinámicos en las tomas o escapes de aire) por cualquier medio. La inyección de combustible bajo presión no se considera sobrecarga.
-            <!--1.12-->%s Cockpit
+			<!--1.12-->%s Cockpit
 	            %c El espacio en el que se encuentra el piloto.
-            <!--1.13-->%s Suspensión
+			<!--1.13-->%s Suspensión
 	            %c Donde las ruedas completas se suspenden de una unidad que se comprime en la célula de supervivencia\/unidad de potencia\/caja de cambios mediante muelles.
-            <!--1.14-->%s Célula de supervivencia
+			<!--1.14-->%s Célula de supervivencia
 	            %c Una estructura cerrada y continua que contiene el tanque de combustible, el cockpit y las partes del sistema eléctrico listadas en el Artítulo 5.12.7.
-            <!--1.15-->%s Cámara
+			<!--1.15-->%s Cámara
 	            %c Cámaras de televisión, cuyas dimensiones están definidas en el Plano 6.
-            <!--1.16-->%s Carcasas de cámara
+			<!--1.16-->%s Carcasa de cámara
 	            %c  Dispositivo idéntico en forma y peso a una cámara, y que será llevado por un competidor en su coche en ausencia de una cámara.
 	    </item>
-        <item>PRINCIPIOS GENERALES
-            <!--2.1-->%s Rol de la FIA
+		<item>PRINCIPIOS GENERALES
+			<!--2.1-->%s Rol de la FIA
 	            %c El siguiente reglamento técnico para la Fórmula Uno ha sido lanzado por la FIA.
-            <!--2.2-->%s Enmiendas al reglamento
+			<!--2.2-->%s Enmiendas al reglamento
 	            %c Este Reglamento Técnico es de aplicación al Campeonato que tenga lugar en el año referido en el título ("el Campeonato") y sólo puede ser cambiado tras el 30 de abril del año anterior mediante el acuerdo unánime de todos los competidores, exceptuando los cambios hechos por la FIA por motivos de seguridad, que tendrán lugar sin notificación ni retrasos.
 	    </item>
-    </string-array>
+	</string-array>
     <string name="techTitle20">Reglamento técnico de la Fórmula 1 de 2020</string>
 </resources>
