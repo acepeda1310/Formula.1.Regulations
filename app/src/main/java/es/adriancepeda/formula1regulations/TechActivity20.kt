@@ -34,13 +34,14 @@ class TechActivity20 : AppCompatActivity() {
         val textViewList=Array(text.size){}
         for (i in text.indices){
             val article=text[i].split("%s")
+            val articleAndDescription=article[0].split("%d")
             val textView:TextView= TextView(this)
-            textView.setText((i+1).toString()+". "+article[0])
+            textView.setText((i+1).toString()+". "+articleAndDescription[0])
             textView.setPadding(15,15,15,15)
             textView.setOnClickListener{
                 val intent= Intent(this, ArticleListActivity::class.java)
                 intent.putExtra("number", (i+1).toString())
-                intent.putExtra("title", (i+1).toString()+". "+article[0])
+                intent.putExtra("title", (i+1).toString()+". "+articleAndDescription[0])
                 intent.putExtra("text", text[i])
                 startActivity(intent)
             }

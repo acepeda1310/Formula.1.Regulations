@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
 import android.util.Log
+import android.view.ViewGroup
+import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
 import android.widget.Toolbar
@@ -29,16 +31,33 @@ class ArticleActivity : AppCompatActivity() {
         for(parragraph in separatedText){
             val references=parragraph.split("%r")
             val subArticles=references[0].split("%a")
+            val images=references[0].split(" %img")
             val textView: TextView = TextView(this)
-            textView.setText(Html.fromHtml(subArticles[0]))
+            textView.setText(Html.fromHtml(images[0]))
             textView.setPadding(15,15,15,15)
             content.addView(textView)
             if (subArticles.size>1) showSubArticles(subArticles, content, 40)
+            if (images.size>1) showImages(images, content)
             try {
                 if (references.size > 1) showReferences(references, content)
             } catch (e:Exception){
                 Log.e(null, "Non existent article")
             }
+        }
+    }
+
+    private fun showImages(images: List<String>, content: LinearLayout) {
+        Log.e(null, R.drawable.tech20_3_2_a.toString())
+        Log.e(null, R.drawable.tech20_3_2_b.toString())
+        for (i in 1 until images.size){
+            val imageView = ImageView(this).also {
+                it.setPadding(15,15,15,15)
+                val layoutParams:LinearLayout.LayoutParams=LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT)
+                it.layoutParams = layoutParams
+                it.setImageResource(images[i].toInt())
+                it.adjustViewBounds=true
+            }
+            content.addView(imageView)
         }
     }
 

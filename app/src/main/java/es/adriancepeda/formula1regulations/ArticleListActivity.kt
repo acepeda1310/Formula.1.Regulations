@@ -24,6 +24,15 @@ class ArticleListActivity : AppCompatActivity() {
         }
         content.addView(title)
         val list=text.split("%s")
+        val articleAndDescription=list[0].split("%d")
+        if(articleAndDescription.size>1){
+            for (i in 1 until articleAndDescription.size){
+                val textView=TextView(this)
+                textView.setPadding(15,15,15,15)
+                textView.setText(articleAndDescription[i])
+                content.addView(textView)
+            }
+        }
         for (i in 1 until list.size){
             val articleDecompressed=list[i].split("%c")
             val textView: TextView = TextView(this)
