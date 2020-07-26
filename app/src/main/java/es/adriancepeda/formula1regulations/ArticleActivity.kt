@@ -30,10 +30,10 @@ class ArticleActivity : AppCompatActivity() {
         val separatedText=text.split("%p")
         for(parragraph in separatedText){
             val references=parragraph.split("%r")
-            val subArticles=references[0].split("%a")
             val images=references[0].split(" %img")
+            val subArticles=images[0].split("%a1")
             val textView: TextView = TextView(this)
-            textView.setText(Html.fromHtml(images[0]))
+            textView.setText(Html.fromHtml(subArticles[0]))
             textView.setPadding(15,15,15,15)
             content.addView(textView)
             if (subArticles.size>1) showSubArticles(subArticles, content, 40)
@@ -49,12 +49,15 @@ class ArticleActivity : AppCompatActivity() {
     private fun showImages(images: List<String>, content: LinearLayout) {
         Log.e(null, R.drawable.tech20_3_2_a.toString())
         Log.e(null, R.drawable.tech20_3_2_b.toString())
+        Log.e(null, R.drawable.tech20_3_3_a.toString())
+        Log.e(null, R.drawable.tech20_3_3_b.toString())
         for (i in 1 until images.size){
+            val image=images[i].replace("\\s".toRegex(),"")
             val imageView = ImageView(this).also {
                 it.setPadding(15,15,15,15)
                 val layoutParams:LinearLayout.LayoutParams=LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT)
                 it.layoutParams = layoutParams
-                it.setImageResource(images[i].toInt())
+                it.setImageResource(image.toInt())
                 it.adjustViewBounds=true
             }
             content.addView(imageView)
@@ -63,10 +66,12 @@ class ArticleActivity : AppCompatActivity() {
 
     private fun showSubArticles(subArticles: List<String>, content: LinearLayout, padding:Int) {
         for (i in 1 until subArticles.size) {
+            val separated=subArticles[i].split("%a2")
             val tvSubArticles=TextView(this)
             tvSubArticles.setPadding(padding,15,15,15)
-            tvSubArticles.setText(Html.fromHtml(subArticles[i]))
+            tvSubArticles.text = Html.fromHtml(separated[0])
             content.addView(tvSubArticles)
+            if(separated.size>1) showSubArticles(separated, content, padding+25)
         }
     }
 
@@ -76,24 +81,32 @@ class ArticleActivity : AppCompatActivity() {
             val separatedReferences=noSpaces.split(",")
             val tvReferences = TextView(this)
             tvReferences.setPadding(15,15,15,15)
-            if (i==0) tvReferences.setText(Html.fromHtml("<b>"+R.string.references+"</b>"))
+            if (i==0) tvReferences.text = Html.fromHtml("<b>"+resources.getText(R.string.references)+"</b>")
             else {
-                tvReferences.setText(separatedReferences[0])
+                val referenceTitle=separatedReferences[0].replace("_".toRegex()," ")
+                tvReferences.text = referenceTitle
                 var completeRegulations=""
                 val regulation=separatedReferences[1]
-                if (regulation=="tech20") {
-                    val complete=resources.getStringArray(R.array.tech_20)
-                    val article=complete[separatedReferences[2].toInt()-1]
-                    val separatedArticle=article.split("%s")
-                    completeRegulations=separatedArticle[separatedReferences[3].toInt()-1]
-                }
-                val separatedRegulations=completeRegulations.split("%c")
-                tvReferences.setOnClickListener(){
-                    val intent= Intent(this, ArticleActivity::class.java)
-                    intent.putExtra("number", separatedReferences[0])
-                    intent.putExtra("title", separatedReferences[0]+". "+separatedRegulations[0])
-                    intent.putExtra("text", separatedRegulations[1])
-                    startActivity(intent)
+                try {
+                    if (regulation == "tech20") {
+                        val complete = resources.getStringArray(R.array.tech_20)
+                        val article = complete[separatedReferences[2].toInt() - 1]
+                        val separatedArticle = article.split("%s")
+                        completeRegulations = separatedArticle[separatedReferences[3].toInt() - 1]
+                    }
+                    val separatedRegulations = completeRegulations.split("%c")
+                    tvReferences.setOnClickListener() {
+                        val intent = Intent(this, ArticleActivity::class.java)
+                        intent.putExtra("number", referenceTitle)
+                        intent.putExtra(
+                            "title",
+                            referenceTitle + ". " + separatedRegulations[0]
+                        )
+                        intent.putExtra("text", separatedRegulations[1])
+                        startActivity(intent)
+                    }
+                } catch (e:Exception){
+                    Log.e(null,"Non existent article")
                 }
             }
             content.addView(tvReferences)

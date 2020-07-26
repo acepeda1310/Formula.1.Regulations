@@ -97,11 +97,11 @@
 			<!--2.4-->%s Compliance with the regulations
 				%c Automobiles must comply with these regulations in their entirety at all times during an Event.
 				%p Should a competitor introduce a new design or system or feel that any aspect of these regulations is unclear, clarification may be sought from the FIA Formula One Technical Department. If clarification relates to any new design or system, correspondence must include:
-					%a &lt;b&gt;a.&lt;\/b&gt; A full description of the design or system.
-					%a &lt;b&gt;b.&lt;\/b&gt; Drawings or schematics where appropriate.
-					%a &lt;b&gt;c.&lt;\/b&gt; The competitor\'s opinion concerning the immediate implications on other parts of the car of any proposed new design.
-					%a &lt;b&gt;d.&lt;\/b&gt; The competitor\'s opinion concerning any possible long term consequences or new developments which may come from using any such new designs or systems.
-					%a &lt;b&gt;e.&lt;\/b&gt; The precise way or ways in which the competitor feels the new design or system will enhance the performance of the car.
+					%a1 &lt;b&gt;a.&lt;\/b&gt; A full description of the design or system.
+					%a1 &lt;b&gt;b.&lt;\/b&gt; Drawings or schematics where appropriate.
+					%a1 &lt;b&gt;c.&lt;\/b&gt; The competitor\'s opinion concerning the immediate implications on other parts of the car of any proposed new design.
+					%a1 &lt;b&gt;d.&lt;\/b&gt; The competitor\'s opinion concerning any possible long term consequences or new developments which may come from using any such new designs or systems.
+					%a1 &lt;b&gt;e.&lt;\/b&gt; The precise way or ways in which the competitor feels the new design or system will enhance the performance of the car.
 			<!--2.5-->%s New systems or technologies
 				%c Any new system, procedure or technology not specifically covered by these regulations, but which is deemed permissible by the FIA Formula One Technical Department, will only be admitted until the end of the Championship during which it is introduced. Following this the Formula One Commission will be asked to review the technology concerned and, if they feel it adds no value to Formula One in general, it will be specifically prohibited.
 				%p Any team whose technology is prohibited in this way will then be required to publish full technical details of the relevant system or procedure.
@@ -123,7 +123,7 @@
 				%p &lt;b&gt;3.1.3. Distances&lt;\/b&gt;
 					%p All measurements relative to wheel centre lines, car centre plane and survival cell planes (referring to Drawing 5) will be taken parallel to the reference plane defined in Article 3.7.1.
 				%r3.7,tech20,3,7
-				%rDrawing 5,tech20,24,5
+				%rDrawing_5,tech20,24,5
 			<!--3.2-->%s Overall dimensions
 				%c &lt;b&gt;3.2.1. Height&lt;\/b&gt;
 					%p No part of the bodywork may be more than 950mm above the reference plane.
@@ -134,6 +134,57 @@
 					%p No part of the car may be more than 810mm behind the rear wheel centre line or more than 1225mm in front of the front wheel centre line.
 				%img2131230864
 				%img2131230865
+			<!--3.3-->%s Front wing
+				%c &lt;b&gt;3.3.1. Mandatory central section&lt;\/b&gt;
+					%p Any vertical section taken parallel to the car centre plane through bodywork located more than 450mm forward of the front wheel centre line, less than 250mm from the car centre plane, and less than 125mm above the reference plane must only contain a single section, which:
+						%a1 &lt;b&gt;a.&lt;\/b&gt; Conforms to the profile and incidence defined by the coordinates specified in Drawing 7 (with the exception of local changes of section where the bodywork defined in Article 3.3.2 attaches) with a manufacturing tolerance of +/-0.500mm.
+						%a1 &lt;b&gt;b.&lt;\/b&gt; Lower trailing edge point, as defined in Drawing 7, is 86.650mm above the reference plane with a manufacturing tolerance of +/-2.000mm.
+						%a1 &lt;b&gt;c.&lt;\/b&gt; Has its forward most point lying on a curve, when viewed from above, defined by:
+							%a2 &lt;b&gt;i.&lt;\/b&gt; A diagonal line from a point 1225mm forward of the front wheel centre line and on the car centre plane to a point 1025mm in front of the front wheel centre line and 1000mm from the car centre plane.
+							%a2 &lt;b&gt;ii.&lt;\/b&gt; A 500mm radius tangent to this line and perpendicular to the car centre plane at the car centre plane with its centre less than 1225mm forward of the front wheel centre line. Once the 500mm radius is defined, the diagonal line is trimmed to the intersection point with the radius, retaining the outboard segment.
+						%a1 with a manufacturing tolerance of 2.000mm behind this curve only.
+					%p The above tolerances are to help overcome any possible manufacturing problems, and not to permit any design which may contravene any part of these regulations.
+					%p Furthermore, bodywork in this area may not contain any closed channel the effect of which is to duct air directly or indirectly to or from the external air stream for any purpose other than data acquisition.
+				%p &lt;b&gt;3.3.2. Pylons&lt;\/b&gt;
+					%p Any horizontal section taken through bodywork located forward of a point lying 450mm forward of the front wheel centre line, less than 250mm from the car centre plane, and between 125mm and 135mm above the reference plane, may only contain two closed symmetrical sections with a maximum total area of 5,000mm&#178;. The thickness of each section may not exceed 25mm when measured perpendicular to the car centre plane.
+					%p Once fully defined, the sections at 125mm above the reference plane must be projected vertically to join the profile required by Article 3.3.1. A radius no greater than 10mm may be used where these sections join.
+					%rDrawing_7,tech20,24,7
+				%p &lt;b&gt;3.3.3. Overall dimensions&lt;\/b&gt;
+					%p All bodywork situated forward of a point lying 330mm behind the front wheel centre line, and more than 250mm from the car centre plane, must be no less than 75mm and no more than 300mm above the reference plane.
+					%p When viewed from above, this bodywork must lie within the area enclosed by the intersection of four lines:
+						%a1 &lt;b&gt;a.&lt;\/b&gt; A diagonal line from a point 1225mm forward of the front wheel centre line and on the car centre plane to a point 1025mm in front of the front wheel centre line and 1000mm from the car centre plane.
+						%a1 &lt;b&gt;b.&lt;\/b&gt; A longitudinal line parallel to and 1000mm from the car centre plane.
+						%a1 &lt;b&gt;c.&lt;\/b&gt; A diagonal line from a point 650mm forward of the front wheel centre line and on the car centre plane to a point 450mm in front of the front wheel centre line and 1000mm from the car centre plane.
+						%a1 &lt;b&gt;d.&lt;\/b&gt; A longitudinal line parallel to and 250mm from the car centre plane.
+					%img2131230866
+					%img2131230867
+				%p &lt;b&gt;3.3.4. Definition of components&lt;\/b&gt;
+					%p On each side of the car, the volume describen in Article 3.3.3 can only contain the following components:
+						%a1 &lt;b&gt;a. &lt;\/b&gt; The front wing endplate defined in Article 3.3.5.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; The front wing profiles defined in Article 3.3.6.
+						%a1 &lt;b&gt;c. &lt;\/b&gt; A maximum of two front wing strakes as defined in Article 3.3.8.
+						%a1 &lt;b&gt;d. &lt;\/b&gt; The front wing auxiliary components defined in Article 3.3.9.
+				%p &lt;b&gt;3.3.5. Front wing endplate&lt;\/b&gt;
+					%p A mathematical surface (referred to as the &lt;i&gt;virtual endplate surface&lt;\/i&gt;) must be constructed in order to subsequently define the endplate.
+					%p The virtual endplate surface must:
+						%a1 &lt;b&gt;a. &lt;\/b&gt; Lie entirely between 910mm and 950mm from the car centre plane.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; Extend forwards, rearwards, upwards and downwards in such way as to intersect respectively the forward, rearward, upper and lower bounding surfaces of the volume defined in Article 3.3.3 over its entire length and height.
+						%a1 &lt;b&gt;c. &lt;\/b&gt; In no place have a normal which subtends an angle greater than 15° to an axis normal to the car centre plane.
+						%a1 &lt;b&gt;d. &lt;\/b&gt; Produce one single continuous curve, which is entirely visible from side view, when intersected with any lateral vertical or horizontal plane.
+					%p The front wing endplate is defined as the bodywork created by the union of two volumes.
+					%p The first such volume:
+						%a1 &lt;b&gt;e. &lt;\/b&gt; Must fully enclose a minimum of 95% of the virtual endplate surface.
+						%a1 &lt;b&gt;f. &lt;\/b&gt; Over its forward-most 150mm, measured in the longitudinal direction, must in no part be distant more than 10mm from the virtual endplate surface, while over the rest of its volume must in no part be more than 6mm distant from the virtual endplate surface.
+						%a1 &lt;b&gt;g. &lt;\/b&gt; Is a single volume which contains no apertures and any intersection with any lateral or horizontal plane may only produce a single closed section.
+					%p The second such volume:
+						%a1 &lt;b&gt;h. &lt;\/b&gt; Must have no part which is distant more than 30mm from the virtual endplate surface towards the car centre plane. Any part inboard of the virtual endplate surface must lie in its entirety between 75mm and 85mm above the reference plane.
+						%a1 &lt;b&gt;i. &lt;\/b&gt; Lies in its entirety between 75mm and 110mm from the reference plane.
+						%a1 &lt;b&gt;j. &lt;\/b&gt; Is a single volume which contains no apertures or slots.
+						%a1 &lt;b&gt;k. &lt;\/b&gt; When viewed from below, has a boundary which does not contain any external local concave radius of curvature smaller than 200mm.
+					%p Once the two volumes have been defined, a fillet radius of up to 5mm will be permitted where they intersect. Any cross section of the unified volume with a lateral vertical plane should contain only a single closed section.
+					%p In order to prevent tyre damage to other cars, the complete endplate, with the exception of parts of the second volume inboard of the virtual endplate surface must be at least 10mm thick (being the minimum distance when measured normal to the surface in any direction) with a 5mm radius applied to all extremities.
+					%p In addition, the leading 50mm of this bodywork, with the exception of fasteners and inserts as described below, must be of a prescribed laminate, details of this laminate may be found in the Appendix to the Technical Regulations.
+					%p Fasteners and related inserts, for the purpose of attaching the front wing endplate to the profiles must be positioned at least 30mm rearward of the leading edge of the endplate.
 		</item>
 	</string-array>
     <string name="techTitle20">2020 Formula 1 Technical Regulations</string>
