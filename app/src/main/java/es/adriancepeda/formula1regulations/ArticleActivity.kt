@@ -28,15 +28,26 @@ class ArticleActivity : AppCompatActivity() {
         val separatedText=text.split("%p")
         for(parragraph in separatedText){
             val references=parragraph.split("%r")
+            val subArticles=references[0].split("%a")
             val textView: TextView = TextView(this)
-            textView.setText(Html.fromHtml(references[0]))
+            textView.setText(Html.fromHtml(subArticles[0]))
             textView.setPadding(15,15,15,15)
             content.addView(textView)
+            if (subArticles.size>1) showSubArticles(subArticles, content, 40)
             try {
                 if (references.size > 1) showReferences(references, content)
             } catch (e:Exception){
                 Log.e(null, "Non existent article")
             }
+        }
+    }
+
+    private fun showSubArticles(subArticles: List<String>, content: LinearLayout, padding:Int) {
+        for (i in 1 until subArticles.size) {
+            val tvSubArticles=TextView(this)
+            tvSubArticles.setPadding(padding,15,15,15)
+            tvSubArticles.setText(Html.fromHtml(subArticles[i]))
+            content.addView(tvSubArticles)
         }
     }
 

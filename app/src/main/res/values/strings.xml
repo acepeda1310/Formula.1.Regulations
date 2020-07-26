@@ -92,6 +92,25 @@
 				%c The following technical regulations for Formula One cars are issued by the FIA.
 			<!--2.2-->%s Amendments to the regulations
 				%c These Technical Regulations apply to the Championship taking place in the calendar year referred to in the title (“the Championship”) and may only be changed after 30 April of the preceding year with the unanimous agreement of all competitors, save for changes made by the FIA for safety reasons which may come into effect without notice or delay.
+			<!--2.3-->%s Dangerous construction
+				%c The stewards may exclude a vehicle whole construction is deemed to be dangerous.
+			<!--2.4-->%s Compliance with the regulations
+				%c Automobiles must comply with these regulations in their entirety at all times during an Event.
+				%p Should a competitor introduce a new design or system or feel that any aspect of these regulations is unclear, clarification may be sought from the FIA Formula One Technical Department. If clarification relates to any new design or system, correspondence must include:
+					%a &lt;b&gt;a.&lt;\/b&gt; A full description of the design or system.
+					%a &lt;b&gt;b.&lt;\/b&gt; Drawings or schematics where appropriate.
+					%a &lt;b&gt;c.&lt;\/b&gt; The competitor\'s opinion concerning the immediate implications on other parts of the car of any proposed new design.
+					%a &lt;b&gt;d.&lt;\/b&gt; The competitor\'s opinion concerning any possible long term consequences or new developments which may come from using any such new designs or systems.
+					%a &lt;b&gt;e.&lt;\/b&gt; The precise way or ways in which the competitor feels the new design or system will enhance the performance of the car.
+			<!--2.5-->%s New systems or technologies
+				%c Any new system, procedure or technology not specifically covered by these regulations, but which is deemed permissible by the FIA Formula One Technical Department, will only be admitted until the end of the Championship during which it is introduced. Following this the Formula One Commission will be asked to review the technology concerned and, if they feel it adds no value to Formula One in general, it will be specifically prohibited.
+				%p Any team whose technology is prohibited in this way will then be required to publish full technical details of the relevant system or procedure.
+			<!--2.6-->%s Measurements
+				%c All measurements must be made while the car is stationary on a flat horizontal surface.
+			<!--2.7-->%s Duty of Competitor
+				%c It is the duty of each competitor to satisfy the FIA technical delegate and the stewards that his automobile complies with these regulations in their entirety at all times during an Event.
+				%p The design of the car, its components and systems shall, with the exception of safety features, demonstrate their compliance with these regulations by means of physical inspection of hardware or materials. No mechanical design may rely upon software inspection as a means of ensuring its compliance.
+				%p Due to their nature, the compliance of electronic systems may be assessed by means of inspection of hardware, software and data.
 		</item>
 	</string-array>
     <string name="techTitle20">2020 Formula 1 Technical Regulations</string>

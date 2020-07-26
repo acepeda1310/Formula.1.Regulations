@@ -90,6 +90,25 @@
 	            %c El siguiente reglamento técnico para la Fórmula Uno ha sido lanzado por la FIA.
 			<!--2.2-->%s Enmiendas al reglamento
 	            %c Este Reglamento Técnico es de aplicación al Campeonato que tenga lugar en el año referido en el título ("el Campeonato") y sólo puede ser cambiado tras el 30 de abril del año anterior mediante el acuerdo unánime de todos los competidores, exceptuando los cambios hechos por la FIA por motivos de seguridad, que tendrán lugar sin notificación ni retrasos.
+			<!--2.3-->%s Construcción peligrosa
+				%c Los comisarios excluirán a un vehículo cuya construcción se sospeche que sea peligrosa.
+			<!--2.4-->%s Cumplimiento del reglamento
+				%c Los automóviles deberán cumplir este reglamento por completo en todo momento durante un Evento.
+				%p En el caso de que un competidor introduzca un nuevo diseño o pieza, o crea que cualquier aspecto de este reglamento no está claro, se deberá pedir una aclaración al Departamento Técnico de Fórmula 1 de la FIA. Si dicha aclaración es por cualquier nuevo diseño o sistema, se deberán incluir los siguientes datos:
+					%a &lt;b&gt;a.&lt;\/b&gt; Descripción completa del diseño o sistema.
+					%a &lt;b&gt;b.&lt;\/b&gt; Planos y esquemas, según corresponda.
+					%a &lt;b&gt;c.&lt;\/b&gt; Opinión del competidor acerca de las implicaciones inmediatas en otras piezas del coche o cualquier nuevo diseño propuesto.
+					%a &lt;b&gt;d.&lt;\/b&gt; Opinión del competidor acerca de consecuencias a largo plazo o nuevos desarrollos que vendran usando cualquiera de estos nuevos diseños o sistemas.
+					%a &lt;b&gt;e.&lt;\/b&gt; Formas en las que el competidor cree que el nuevo diseño o sistema puede mejorar el rendimiento del coche.
+			<!--2.5-->%s Nuevos sistemas o tecnologías
+				%c Cualquier nuevo sistema, procedimiento o tecnología que no esté recogido específicamente en este reglamento, pero que sea permitido por el Departamento Técnico de Fórmula 1 de la FIA, sólo será permitido hasta la finalización del Campeonato durante el cuál se ha introducido. A partir de ahí, la Comisión de Fórmula 1 analizará la tecnología y, si se cree que no se añade ningún valor a la Fórmula 1 en general, se prohibirá específicamente.
+				%p Cualquier equipo cuya tecnología se prohiba de la forma antes mencionada, deberá publicar los detalles técnicos completos del sistema o procedimiento afectados.
+			<!--2.6-->%s Medidas
+				%c Todas las medidas se tomarán con el vehículo inmovilizado en una superficie plana horizontal.
+			<!--2.7-->%s Deber del competidor
+				%c Es deber de cada competidor el asegurar al delegado técnico de la FIA y los comisarios que su automóvil cumple con este reglamento al completo en todo momento durante un Evento.
+				%p El diseño del coche, sus componentes y sistemas deberán, exceptuando características de seguridad, demostrar su cumplimiento con este reglamento mediante inspección física del hardware o materiales. Ningun medio mecánico podrá depender de inspección por software para asegurar su cumplimiento del reglamento.
+				%p Debido a su naturaleza, el cumplimiento de los sistemas electrónicos se evaluará mediante inspección de hardware, software y datos.
 	    </item>
 	</string-array>
     <string name="techTitle20">Reglamento técnico de la Fórmula 1 de 2020</string>
