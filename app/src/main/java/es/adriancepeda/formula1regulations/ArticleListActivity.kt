@@ -23,7 +23,15 @@ class ArticleListActivity : AppCompatActivity() {
             it.setTitleTextColor(ContextCompat.getColor(this, R.color.white))
         }
         content.addView(title)
-        val list=text.split("%s")
+        val otherData=text.split("%o")
+        var completeText=text
+        if(otherData.size>1) {
+            for(i in 1 until otherData.size){
+                val otherData2=otherData[i].replace("\\s".toRegex(),"")
+                completeText=text.plus(resources.getString(otherData[i].toInt()))
+            }
+        }
+        val list=completeText.split("%s")
         val articleAndDescription=list[0].split("%d")
         if(articleAndDescription.size>1){
             for (i in 1 until articleAndDescription.size){

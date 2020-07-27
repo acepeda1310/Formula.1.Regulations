@@ -3,6 +3,7 @@ package es.adriancepeda.formula1regulations
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.Button
 
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         setTitle(R.string.app_name)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        Log.e(null, R.string.tech20_3_1.toString())
         buttonTech = findViewById(R.id.buttonTech)
         buttonTech.setOnClickListener{
             val intent=Intent(this, TechActivity::class.java)

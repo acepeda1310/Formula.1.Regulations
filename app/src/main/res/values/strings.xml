@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Formula 1 Regulations</string>
     <string name="tech">Technical</string>
@@ -185,8 +186,207 @@
 					%p In order to prevent tyre damage to other cars, the complete endplate, with the exception of parts of the second volume inboard of the virtual endplate surface must be at least 10mm thick (being the minimum distance when measured normal to the surface in any direction) with a 5mm radius applied to all extremities.
 					%p In addition, the leading 50mm of this bodywork, with the exception of fasteners and inserts as described below, must be of a prescribed laminate, details of this laminate may be found in the Appendix to the Technical Regulations.
 					%p Fasteners and related inserts, for the purpose of attaching the front wing endplate to the profiles must be positioned at least 30mm rearward of the leading edge of the endplate.
+				%p &lt;b&gt;3.3.6. Front wing profiles&lt;\/b&gt;
+					%p Front wing profiles are defined as bodywork that is contained in the volume which extends from 250mm to 950mm from the car centre plane, and within the volume defined in Article 3.3.3. They must meet the following criteria:
+						%a1 &lt;b&gt;a. &lt;\/b&gt; Any intersection of these profiles with any longitudinal vertical plane may contain no more than five closed sections, each of which may contain no concave radius of curvature less than 50mm.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; For the part of the profiles outboard of a plane that lies 400mm from the car centre plane:
+							%a2 &lt;b&gt;i. &lt;\/b&gt; The rearmost point of every closed section must be visible when viewed from below.
+							%a2 &lt;b&gt;ii. &lt;\/b&gt; With the exception of the rearmost closed section, the rearmost point of every closed section must not be visible when viewed from above.
+							%a2 &lt;b&gt;iii. &lt;\/b&gt; The normal to any point of the profiles surface must not subtend an angle greater than 15° to a vertical plane which is normal to the diagonal line described in Article 3.3.3(a).
+						%a1 &lt;b&gt;c. &lt;\/b&gt; Outboard of a plane that lies 400mm from the car centre plane the minimum distance between adjacent sections at any longitudinal vertical plane must lie between 5mm and 15mm at their closest position.
+					%p Once the rearmost profile has been defined a single &lt;i&gt;gurney&lt;\/i&gt; type trim tab may be fitted to its trailing edge provided no dimension in a vertical longitudinal section exceeds 10mm. This part must comply with the constraints of Article 3.3.6 (b) (iii), with the exception of its innermost and outermost 10mm (measured in a direction normal to the car centre plane) where these constraints do not apply. For clarity, gurneys that overlap with the adjustable and non- adjustable portion of the profiles (as described in Article 3.3.7) will be considered to be a single gurney, provided they satisfy all of the above criteria in the design position of the profiles.
+					%p Minimal exceptions to the above geometrical criteria can occur in areas of transition close to consecutive longitudinal vertical cross sections with a different number of individual profiles. Outboard of a longitudinal plane that lies 400mm from the car centre plane, such changes may only be achieved by the bifurcation of a single closed section into two or more closed sections, and the method of construction of this transition is detailed below.
+					%p The area of transition will be defined by two vertical planes, which are parallel to each other, up to 20mm apart, and form an angle of no more than 20° to the car centre plane. Within this area:
+						%a1 &lt;b&gt;d. &lt;\/b&gt; The inboard (single) profile surface must be defined over the full span of the transition area in full compliance with Article 3.3.6.
+						%a1 &lt;b&gt;e. &lt;\/b&gt; The outboard profile (two or more) surfaces must be defined over the full span of the transition area in full compliance with Article 3.3.6, lie entirely within the single profile surface, and share the same overall chord.
+						%a1 &lt;b&gt;f. &lt;\/b&gt; Once the inboard and outboard profile surfaces have been defined, blending surfaces must be defined to join the profiles together. These surfaces must lie within the volume of the single, inboard profile surface, and entirely within the transition volume. Once these minimal transition surfaces have been defined, the original overlapping surfaces of the inboard and outboard profiles must be trimmed accordingly.
+					%p The construction method described above may also be used to define the transition outboard of the single section defined by Article 3.3.1 and the sections that lie outboard of it. For the avoidance of doubt, these transition surfaces must lie entirely outboard of a vertical longitudinal plane that lies 250mm from the car centre plane.
+					%p Once the front wing profiles have been defined, they must be trimmed by the virtual endplate surface defined in Article 3.3.5, and the portion of the front wing profiles outboard of that surface must be discarded. Where the front wing profiles intersect the front wing endplate, a maximum fillet radius of 10mm may be applied.
+				%p &lt;b&gt;3.3.7. Adjusting of front wing&lt;\/b&gt;
+					%p Once the Front Wing Profiles have been defined in accordance with Article 3.3.6, a portion of up to four of the rearmost profiles and the gurney, may be adjustable in order to trim the front wing aerodynamic load.
+					%p For this purpose:
+						%a1 &lt;b&gt;a. &lt;\/b&gt; The parts of the front wing profiles that are included within the adjustable part must have no degrees of freedom between them.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; The adjustment may only be a rotation about a fixed axis. In plan view, this axis must not subtend an angle greater than 20deg to the diagonal line described in Article 3.3.3 (a), and in front view it must not subtend an angle greater than 15deg to the horizontal plane. For the full extent of the adjustable part of the profiles outboard of a plane that lies 400mm from the car centre plane, and in any longitudinal vertical plane, this axis must lie between two vertical lines, one that passes through the forward most point of the adjustable part of the profiles in that section, and another one 30mm behind the first line.
+						%a1 &lt;b&gt;c. &lt;\/b&gt; The junction between the adjustable and non-adjustable parts of the profiles must be defined by one or two surfaces of revolution about the fixed axis of rotation defined in 3.3.7 b . Furthermore, any normal to these surfaces of revolution may not subtend an angle greater than 55° to a line that is normal to the car centre plane. These surfaces of revolution must also lie inboard of the virtual endplate surface defined in Article 3.3.5.
+						%a1 &lt;b&gt;d. &lt;\/b&gt; The original position of these profiles (as defined in accordance with Article 3.3.6) must be included within the overall range of adjustment. Furthermore, the maximum deviation for any point of these profiles between the uppermost and lowermost angle of adjustment must not exceed 35mm.
+						%a1 &lt;b&gt;e. &lt;\/b&gt; Minimal exceptions to the geometrical criteria of Article 3.3.6 for the wing profiles may be made in the junction between the adjustable and non-adjustable parts, in order to ensure the necessary level of sealing. Such parts must lie within 3mm from one of the two surfaces of revolution and their maximum size must be the minimum necessary amount required to achieve a 20mm overlap between the adjustable and the non-adjustable parts of the profiles over the whole range of movement.
+					%p For the avoidance of doubt, the adjustment permitted under this Article is only allowed when the car is stationary and by the use of a tool, and in accordance with the Formula 1 Sporting Regulations.
+					%p Furthermore, any such variation of incidence maintains compliance with all of the bodywork regulations, with the exception of Articles 3.3.6 (a) and 3.3.6 (b).
+				%p &lt;b&gt;3.3.8. Front wing strakes&lt;\/b&gt;
+					%p Strakes may be constructed once the front wing profiles have been defined. For each strake, a virtual strake surface must be first defined, which must:
+						%a1 &lt;b&gt;a. &lt;\/b&gt; Be connected to the non-adjustable part of the front wing profiles.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; Lie in its entirety between two vertical longitudinal planes, 20mm apart, and between 500mm and 800mm from the car centre plane.
+						%a1 &lt;b&gt;c. &lt;\/b&gt; Lie entirely between 75mm and 150mm from the reference plane.
+						%a1 &lt;b&gt;d. &lt;\/b&gt; Not be closer than 50mm in any point to the other such virtual strake surface.
+						%a1 &lt;b&gt;e. &lt;\/b&gt; In no place have a normal which subtends an angle greater than 10° to an axis normal to the car centre plane.
+						%a1 &lt;b&gt;f. &lt;\/b&gt; Contain no more than one curve when intersected by any lateral vertical or horizontal plane. In side view, no part of the virtual strake surface may obstruct any other part of it.
+					%p Once the virtual strake surface has been defined, the strake itself must:
+						%a1 &lt;b&gt;g. &lt;\/b&gt; Fully enclose the entire virtual strake surface.
+						%a1 &lt;b&gt;h. &lt;\/b&gt; In no part lie vertically above the upper surface of the front wing profiles defined in Article 3.3.6.
+						%a1 &lt;b&gt;i. &lt;\/b&gt; Be no more than 6mm distant from the virtual strake surface, except its rear-most 100mm (measured in the longitudinal direction), where this maximum distance must not exceed 3mm.
+					%p Once the actual strake volume has been defined, a fillet radius of up to 5mm will be permitted where this strake volume intersects the individual profiles described in Article 3.3.6.
+				%p &lt;b&gt;3.3.9. Front wing auxiliary components&lt;\/b&gt;
+					%p The following components will be permitted in addition to the bodywork defined in Articles 3.3.5, 3.3.6 and 3.3.8 for primarily mechanical, structural or measurement reasons:
+						%a1 &lt;b&gt;a. &lt;\/b&gt; Two brackets which define the pivot axis of the adjustable part of the front wing profile, and allow the necessary movement. These brackets must:
+							%a2 &lt;b&gt;i. &lt;\/b&gt; be in their entirety within 40mm from both the stationary and the adjustable part of the profiles over the whole range of adjustment
+							%a2 &lt;b&gt;ii. &lt;\/b&gt; be no more than 5mm thick. A fillet radius no greater than 2mm will be permitted where these brackets join the two profiles
+							%a2 &lt;b&gt;iii. &lt;\/b&gt; have no dimension that exceeds 80mm
+						%a1 &lt;b&gt;b. &lt;\/b&gt; Up to sixteen (in total, per side) slot gap separator brackets which connect consecutive front wing profiles. These brackets must:
+							%a2 &lt;b&gt;i. &lt;\/b&gt; be in their entirety within 30mm from both of the two profiles they support in relation to each other
+							%a2 &lt;b&gt;ii. &lt;\/b&gt; be no more than 5mm thick. A fillet radius no greater than 2mm will be permitted where these brackets join the two profiles
+							%a2 &lt;b&gt;iii. &lt;\/b&gt; have no dimension that exceeds 60mm
+						%a1 &lt;b&gt;c. &lt;\/b&gt; A mechanism with or without a fairing to contain it for the angle adjustment of part of the front wing profiles, as defined in Article 3.3.7. This mechanism and fairing must fit within a cuboid of which is 25mm wide, 60mm long and 60mm high. This cuboid may have a free orientation in space, but must intersect both the stationary and the adjustable part of the profiles for the entire range of adjustment.
+						%a1 &lt;b&gt;d. &lt;\/b&gt; A fairing that contains a single tyre temperature sensor. The entire fairing and sensor must:
+							%a2 &lt;b&gt;i. &lt;\/b&gt; fit in the union between two volumes, a cuboid which is 15mm wide, 60mm long and 50mm high and a circular cylinder which has a base diameter of 30mm and a height of 60mm. The axis of the cylinder must coincide with the major axis of the one of the 15mm x 60mm faces of the cuboid.
+							%a2 &lt;b&gt;ii. &lt;\/b&gt; be symmetrical about a plane which is parallel to the 50mm x 60mm faces of the cuboid, and
+							%a2 &lt;b&gt;iii. &lt;\/b&gt; intersect either the profiles defined in Article 3.3.6 or the endplate defined in Article 3.3.5. A fillet radius no greater than 5mm will be permitted along the periphery of this intersection.
+					%p Furthermore, all the components listed above must not be visible from below, with the front wing endplates defined in Article 3.3.5 and the front wing strakes defined in Article 3.3.8 removed, and must lie inboard of the virtual endplate surface defined in Article 3.3.5.
+					%p Should there be a requirement for any additional component to be added, a team must write specifically to the FIA with an explanation, design, and calculated aerodynamic effect, in order to get approval. Such a communication will be circulated to rival teams if deemed to cover a new aspect that had previously not been considered.
+			<!--3.4-->%s Front bodywork
+				%c &lt;b&gt;3.4.1. Nose shape&lt;\/b&gt;
+					%p Only a single section, which must be open, may be contained within any longitudinal vertical cross section taken parallel to the car centre plane forward of a point 150mm ahead of the front wheel centre line, less than 250mm from the car centre plane and more than 125mm above the reference plane.
+					Any cameras or camera housings approved by the FIA (and the parts used to attach these to the bodywork up to a width of 15mm in the direction perpendicular to the car centre plane), in addition to a single inlet aperture for the purpose of driver cooling, such aperture having a maximum projected surface area of 1,500mm&#178; and being situated forward of the section referred to in Article 15.5.6(a), will be exempt from the above.
+					%r15.5,tech20,15,5
+				%p &lt;b&gt;3.4.2. Nose and chassis maximum height&lt;\/b&gt;
+					%p Referring to the planes defined in Article 15:
+					%p No bodywork which is less than 250mm from the car centre plane may lie:
+						%a1 &lt;b&gt;a. &lt;\/b&gt; Above a plane defined by a line on A-A parallel to and 550mm above the reference plane and a line on D-D parallel to and 220mm above the reference plane, if between A-A and D-D (with the exception of pitot tubes and antennae.).
+						%a1 &lt;b&gt;b. &lt;\/b&gt; More than 220mm above the reference plane, if ahead of D-D.
+					%p With the exception of a transparent windscreen, antennae, pitot tubes, and the high speed camera defined in Article 8.8.6, no bodywork situated between the planes A-A and a plane parallel to and 380mm forward of the plane C-C may lie more than 625mm above the reference plane.
+					%p Any bodywork situated above the impact absorbing structure defined by Article 15.5.6 or above the survival cell, and forward of the plane B-B, must be of prescribed laminate, details of this laminate may be found in the Appendix to the Technical Regulations.
+					%r8.8,tech20,8,8
+					%r15.5,tech20,15,5
+				%p &lt;b&gt;3.4.3. Exclusion volume under the nose and chassis&lt;\/b&gt;
+					%p In side view, there must be no bodywork in the area formed by two vertical lines, one 425mm behind the front wheel centre line, one 450mm ahead of the front wheel centre line, one diagonal line intersecting the vertical lines at 100mm and 135mm above the reference plane respectively, and one horizontal line on the reference plane.
+				%p &lt;b&gt;3.4.4. Exclusion volume around the front wheels&lt;\/b&gt;
+					%p In plan view, there must be no bodywork in the area enclosed by the intersection of the following lines:
+						%a1 &lt;b&gt;a. &lt;\/b&gt; A longitudinal line parallel to and 1000mm from the car centre plane.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; A transverse line 450mm forward of the front wheel centre plane.
+						%a1 &lt;b&gt;c. &lt;\/b&gt; A diagonal line running rearwards and outwards, from a point 875mm forward of the front wheel centre line and 250mm from the car centre plane, at an angle of 28° to the car centre plane.
+						%a1 &lt;b&gt;d. &lt;\/b&gt; A transverse line 875mm forward of the front wheel centre plane.
+						%a1 &lt;b&gt;e. &lt;\/b&gt; A longitudinal line parallel to and 165mm from the car centre plane.
+						%a1 &lt;b&gt;f. &lt;\/b&gt; A diagonal line running forwards and inwards, from a point 430mm rearward of the front wheel centre line and 240mm from the car centre plane, at an angle of 4.5° to the car centre plane.
+						%a1 &lt;b&gt;g. &lt;\/b&gt; A diagonal line from 430mm rearward of the front wheel centre line and 240mm from the car centre plane to 550mm forward of the plane C-C and 1000mm from the car centre plane.
+					%img2131230868
+					%img2131230869
+					%img2131230870
+					%img2131230871
+			<!--3.5-->%s Rear bodywork
+					%c &lt;b&gt;3.5.1. Engine cover&lt;\/b&gt;
+						%a1 &lt;b&gt;a. &lt;\/b&gt; With the exception of the opening described in Article 15.2.7, when viewed from the side, the car must have bodywork in the area bounded by four lines: one vertical 1330mm forward of the rear wheel centre line, one horizontal 550mm above the reference plane, one horizontal 925mm above the reference plane and one diagonal which intersects the 925mm horizontal at a point 1000mm forward of the rear wheel centre line and the 550mm horizontal at a point lying 50mm forward of the rear wheel centre line.
+						%a1 Bodywork within this area must be arranged symmetrically about the car centre plane and, when measured 200mm vertically below the diagonal boundary line, must have minimum widths of 150mm and 50mm respectively at points lying 1000mm and 50mm forward of the rear wheel centre line. This bodywork must lie on or outside the boundary defined by a linear taper between these minimum widths.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; Bodywork lying vertically above the area defined in section (a) of the present Article may be no wider than 125mm and must be arranged symmetrically about the car centre plane.
+						%a1 &lt;b&gt;c. &lt;\/b&gt; When viewed from the side, no bodywork forward of the rear wheel centre line may lie above a line parallel to the diagonal boundary defined in a) and intersecting the rear wheel centre line 650mm above the reference plane.
+						%a1 &lt;b&gt;d. &lt;\/b&gt; In side view, the projected area of any bodywork lying between 550mm and 730mm above the reference plane and between 200mm and 450mm forward of the rear wheel centre line must be greater than 44,990mm&#178;.
+						%r15.2,tech20,15,2
+					%p &lt;b&gt;3.5.2. Sidepods height&lt;\/b&gt;
+						%a1 &lt;b&gt;a. &lt;\/b&gt; No bodywork situated more than 330mm behind the front wheel centre line and more than 330mm forward of the rear wheel centre line, which is more than 600mm above the reference plane, may be more than 350mm from the car centre plane.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; No bodywork between the rear wheel centre line and a line 800mm forward of the rear wheel centre line, which is more than 375mm from the car centre plane, may be more than 500mm above the reference plane.
+						%a1 &lt;b&gt;c. &lt;\/b&gt; No bodywork between the rear wheel centre line and a line 400mm forward of the rear wheel centre line, which is more than 375mm from the car centre plane, may be more than 300mm above the reference plane.
+					%p &lt;b&gt;3.5.3. Side impact structures&lt;\/b&gt;
+						%p The impact absorbing structures defined by Article 15.5.2 must be fully enclosed by bodywork, such that no part of the impact structure is in contact with the external air flow. When cut by a longitudinal vertical plane, the bodywork enclosing these impact structures must not form closed sections in the region between 300mm and 875mm forward of the plane C-C.
+						%r15.5,tech20,15,5
+					%p &lt;b&gt;3.5.4. Sidepods leading edge&lt;\/b&gt;
+						%p No part of the area enclosed by the intersection of the following lines, on a plane 500mm above and parallel to the reference plane, may be visible from directly above the car:
+							%a1 &lt;b&gt;a. &lt;\/b&gt; A longitudinal line parallel to and 580mm from the car centre plane.
+							%a1 &lt;b&gt;b. &lt;\/b&gt; A longitudinal line parallel to and 320mm from the car centre plane.
+							%a1 &lt;b&gt;c. &lt;\/b&gt; A lateral line parallel to and 550mm forward of the plane C-C.
+							%a1 &lt;b&gt;d. &lt;\/b&gt; A diagonal line running rearwards and outwards, from a point 550mm forward of the plane C-C and 505mm from the car centre plane, at an angle of 75° to the car centre plane.
+							%a1 &lt;b&gt;e. &lt;\/b&gt; A diagonal line running rearwards and outwards, from a point 400mm forward of the plane C-C and 320mm from the car centre plane, at an angle of 75° to the car centre plane.
+					%p &lt;b&gt;3.5.5. Exlusion volume ahead of the sidepods&lt;\/b&gt;
+						%p In plan view, there must be no bodywork, in the area enclosed by the intersection of the following lines:
+							%a1 &lt;b&gt;a. &lt;\/b&gt; A longitudinal line parallel to and 700mm from the car centre plane.
+							%a1 &lt;b&gt;b. &lt;\/b&gt; A longitudinal line parallel to and 320mm from the car centre plane.
+							%a1 &lt;b&gt;c. &lt;\/b&gt; A diagonal line running rearwards and outwards, from a point 700mm forward of the plane C-C and 320mm from the car centre plane, at an angle of 75° to the car centre plane.
+							%a1 &lt;b&gt;d. &lt;\/b&gt; A diagonal line running rearwards and outwards, from a point 625mm forward of the plane C-C and 320mm from the car centre plane, at an angle of 75° to the car centre plane.
+					%p &lt;b&gt;3.5.6. Bargeboard height&lt;\/b&gt;
+						%p No bodywork which, in plan view, is in the area enclosed by the intersection of the following lines may be more than 350mm above the reference plane:
+							%a1 &lt;b&gt;a. &lt;\/b&gt; A longitudinal line parallel to and 800mm from the car centre plane.
+							%a1 &lt;b&gt;b. &lt;\/b&gt; A diagonal line running rearwards and outwards, from a point 430mm rearward of the front wheel centre line and 240mm from the car centre plane, at an angle of 4.5° to the car centre plane.
+							%a1 &lt;b&gt;c. &lt;\/b&gt; A transverse line 430mm rearward of the front wheel centre plane.
+							%a1 &lt;b&gt;d. &lt;\/b&gt; A line running through a point 625mm forward of the plane C-C and 320mm from the car centre plane, running parallel to the diagonal line defined in Article 3.5.5(c).
+					%p &lt;b&gt;3.5.7. Bodywork shape (R75 rule)&lt;\/b&gt;
+						%p Any vertical cross section of bodywork parallel to the plane C-C situated in the volumes defined below must form one tangent continuous curve on its external surface. This tangent continuous curve may not contain any radius less than 75mm for volumes (a) to (g) and any radius less than 25mm for volume (h) only:
+							%a1 &lt;b&gt;a. &lt;\/b&gt; The volume between 175mm forward of the rear wheel centre line and 300mm rearward of the plane C-C, which is more than 25mm from the car centre plane and more than 100mm above the reference plane.
+							%a1 &lt;b&gt;b. &lt;\/b&gt; The volume between 100mm and 300mm rearward of plane C-C, which is more than 400mm from the car centre plane and more than 100mm above the reference plane.
+							%a1 &lt;b&gt;c. &lt;\/b&gt; The volume between 100mm and 300mm rearward of plane C-C, which is between 125mm and 400mm from the car centre plane and between 100mm and 500mm above the reference plane.
+							%a1 &lt;b&gt;d. &lt;\/b&gt; The volume between 100mm and 300mm rearward of plane C-C, which is between 125mm and 400mm from the car centre plane and more than 695mm above the reference plane.
+							%a1 &lt;b&gt;e. &lt;\/b&gt; The volume between 100mm rearward of the plane C-C and 300mm forward of the plane C-C, which is more than 390mm from the car centre plane and more than 100mm above the reference plane.
+							%a1 &lt;b&gt;f. &lt;\/b&gt; The volume between 100mm rearward of the plane C-C and 450mm forward of the plane C-C, which is more than 125mm from the car centre plane and more than 695mm above the reference plane.
+							%a1 &lt;b&gt;g. &lt;\/b&gt; The volume between 50mm and 175mm forward of the rear wheel centre line, which is more than 25mm from the car centre plane and more than 175mm above the reference plane.
+							%a1 &lt;b&gt;h. &lt;\/b&gt; The volume between 100mm and 300mm rearward of plane C-C, which is between 125mm and 400mm from the car centre plane and between 500mm and 695mm above the reference plane.
+						%p The surfaces lying within these volumes, which are situated more than 55mm forward of the rear wheel centre line, must not contain any apertures (other than those permitted by Article 3.5.8) or contain any vertical surfaces which lie parallel to the plane C-C.
+					%p &lt;b&gt;3.5.8. Apertures&lt;\/b&gt;
+						%p Once the relevant bodywork surfaces are defined in accordance with Article 3.5.7, apertures, any of which may adjoin or overlap each other, may be added for the purpose of allowing suspension members and driveshafts to protrude through the bodywork. Only one aperture may be added for each suspension member and no such aperture may have an area greater than 12,000mm&#178; when projected onto the surface itself. No point on an aperture may be more than 200mm from any other point on the aperture.
+						%img2131230872
+						%img2131230873
+						%img2131230874
+						%img2131230875
+						%img2131230876
+						%img2131230877
+						%img2131230878
+						%img2131230879
+						%img2131230880
+			%o2131755099
 		</item>
 	</string-array>
     <string name="techTitle20">2020 Formula 1 Technical Regulations</string>
 	<string name="references">References</string>
+	<string name="tech20_3_1" translatable="false">
+				<!--3.6-->%s Rear wing and rear impact structure
+					%c &lt;b&gt;3.6.1. Height&lt;\/b&gt;
+						%p With the exception of the minimal parts solely associated with adjustment of the rear wing described under 3.6.8, no part of the bodywork behind the rear wheel centre line may be more than 870mm above the reference plane.
+					%p &lt;b&gt;3.6.2. Width&lt;\/b&gt;
+						%a1 &lt;b&gt;a. &lt;\/b&gt; The width of bodywork behind the rear wheel centre line and more than 500mm above the reference plane must not exceed 1050mm.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; The width of bodywork behind the rear wheel centre line and between 200mm and 500mm above the reference plane must not exceed 840mm.
+					%p &lt;b&gt;3.6.3. Rear wing profiles&lt;\/b&gt;
+						%p Other than the bodywork defined in Article 3.6.6, any bodywork behind the rear wheel centre line which is more than 650mm above the reference plane, and less than 505mm from the car centre plane, must lie in an area when viewed from the side of the car that is situated between 150mm and 500mm rearward of the rear wheel centre line.
+						%p With the exception of the bodywork associated with adjustment of the section in accordance with Article 3.6.8:
+							%a1 &lt;b&gt;a. &lt;\/b&gt; When viewed from the side of the car, no longitudinal vertical cross section may have more than two sections in this area, each of which must be closed.
+							%a1 &lt;b&gt;b. &lt;\/b&gt; No part of these longitudinal vertical cross sections in contact with the external air stream may have a local concave radius of curvature smaller than 100mm.
+						%p Any bodywork associated with the adjustment of the rearmost section in accordance with Article 3.6.8 must be located either less than 25mm from the longitudinal centre line of the car and less than 900mm above the reference plane or more than 500mm from the longitudinal centre line of the car and less than 870mm above the reference plane.
+						%p Once the rearmost and uppermost section is defined, ‘gurney’ type trim tabs may be fitted to the trailing edge. When measured in any longitudinal vertical cross section no dimension of any such trim tab may exceed 20mm.
+						%p The chord of the rearmost and uppermost closed section must always be smaller than the chord of the lowermost section at the same lateral station.
+						%p Furthermore, the distance between adjacent sections at any longitudinal vertical plane must lie between 10mm and 15mm at their closest position, except, in accordance with Article 3.6.8, when this distance must lie between 10mm and 85mm when the DRS system is deployed.
+					%p &lt;b&gt;3.6.4. Separators&lt;\/b&gt;
+						%p In order to ensure that the individual profiles and the relationship between these two sections can only change whilst the car is in motion in accordance with Article 3.6.8, they must be bridged by means of pairs of rigid impervious supports arranged such that no part of the trailing edge of the forward section may be more than 255mm laterally from a pair of supports. These pairs of supports must:
+							%a1 &lt;b&gt;a. &lt;\/b&gt; Be located no more than 505mm from the car centre plane.
+							%a1 &lt;b&gt;b. &lt;\/b&gt; Fully enclose each complete section such that their inner profiles match that of each section. With the exception of minimal local changes where the two sections are adjacent to each other, their outer profiles must be offset from the inner profiles by between 8mm and 30mm and may not incorporate any radius smaller than 10mm (&lt;i&gt;gurney&lt;\/i&gt; type trim tabs may however be fitted between the supports).
+							%a1 &lt;b&gt;c. &lt;\/b&gt; Be aligned as a pair so as to provide a bearing across their full thickness and along a profile length of at least 10mm when the distance between the two sections is at its closest position.
+							%a1 &lt;b&gt;d. &lt;\/b&gt; Not be recessed into the wing profiles (where a recess is defined as a reduction in section at a rate greater than 45° with respect to a lateral axis).
+							%a1 &lt;b&gt;e. &lt;\/b&gt; Be arranged so that any curvature occurs only in a horizontal plane (other than when this bodywork is adjusted in accordance with Article 3.6.8).
+							%a1 &lt;b&gt;f. &lt;\/b&gt; Be between 2mm and 5mm thick.
+							%a1 &lt;b&gt;g. &lt;\/b&gt; Be rigidly fixed to their respective sections.
+							%a1 &lt;b&gt;h. &lt;\/b&gt; Be constructed from a material with modulus greater than 50GPa.
+						%p These supports will be ignored when assessing whether the car is in compliance with Articles 3.6.1, 3.6.3, 3.6.5, 3.6.6 and 3.6.7.
+					%p &lt;b&gt;3.6.5. Rear impact structure&lt;\/b&gt;
+						%p Any parts of the car less than 100mm from the car centre plane and more than 500mm behind the rear wheel centre line must be situated between 200mm and 400mm above the reference plane and no more than 710mm behind the rear wheel centre line.
+						%p With the exception of the last 150mm of the tailpipes described in Article 5.8, there must be no bodywork in an area less than 100mm from the car centre plane, more than 200mm behind the rear wheel centre line and between 400mm and 600mm above the reference plane.
+						%r5.8,tech20,5,8
+					%p &lt;b&gt;3.6.6. Pylons&lt;\/b&gt;
+						%p Any horizontal section between 600mm and 650mm above the reference plane, taken through bodywork located rearward of a point lying 50mm forward of the rear wheel centre line and less than 100mm from the car centre plane, may contain no more than two closed symmetrical sections with a maximum total area of 5000mm&#178;. The thickness of each section may not exceed 25mm when measured perpendicular to the car centre plane.
+						%p Once fully defined, the section at 645mm above the reference plane may be extruded upwards to join the sections defined in Article 3.6.3. A fillet radius no greater than 10mm may be used where these sections join.
+					%p &lt;b&gt;3.6.7. Endplates&lt;\/b&gt;
+						%a1 &lt;b&gt;a. &lt;\/b&gt; In side view, the projected area of any bodywork lying between 300mm and 870mm above the reference plane and between the rear wheel centre line and a point 810mm behind it and more than 400mm from the car centre plane must be greater than 280,000mm&#178;.
+						%a1 &lt;b&gt;b. &lt;\/b&gt; Any bodywork behind the rear wheel centre line, more than 100mm from the car centre plane, and between 200mm and 650mm above the reference plane must lie in an area more than 400mm from the car centre plane. On any horizontal section through the bodywork in this area, at any given longitudinal position along this section, the distance between the inner and outer surfaces must not exceed 20mm measured perpendicular to the car centre line.
+						%a1 &lt;b&gt;c. &lt;\/b&gt; In side view, no bodywork rearward of the rear wheel centre line, and between 100mm and 525mm from the car centre plane, may be situated vertically above a diagonal line which has the forward point 370mm above the reference plane and on the rear wheel centre line and the rearward point 870mm above the reference plane and 190mm rearward of the rear wheel centre line.
+						%a1 &lt;b&gt;d. &lt;\/b&gt; In side view, no bodywork rearward of the rear wheel centre line, and between 100mm and 525mm from the car centre plane, may be situated rearward of a diagonal line which has the forward point 200mm above the reference plane and 550mm rearward of the rear wheel centre line and the rearward point 870mm above the reference plane and 810mm rearward of the rear wheel centre line.
+						%a1 &lt;b&gt;e. &lt;\/b&gt; In an area lying behind the rear wheel centre line, more than 100mm from the car centre plane, and more than 600mm above the reference plane, any intersection of any bodywork visible from the side of the car with a horizontal or lateral vertical plane must form one continuous line which is visible from the side of the car.
+					%p &lt;b&gt;3.6.8. Drag reduction system (DRS)&lt;\/b&gt;
+						%p The incidence of the rearmost and uppermost closed section described in Article 3.6.3 may be varied whilst the car is in motion provided:
+							%a1 &lt;b&gt;a. &lt;\/b&gt; It comprises only one component that must be symmetrically arranged about the car centre plane with a minimum width of 1008mm.
+							%a1 &lt;b&gt;b. &lt;\/b&gt; With the exception of minimal parts solely associated with adjustment of the section, no parts of the section in contact with the external airstream may be located any more than 505mm from the car centre plane.
+							%a1 &lt;b&gt;c. &lt;\/b&gt; With the exception of any minimal parts solely associated with adjustment of the rearmost and uppermost section, two closed sections are used in the area described in Article 3.6.3.
+							%a1 &lt;b&gt;d. &lt;\/b&gt; Any such variation of incidence maintains compliance with all of the bodywork regulations.
+							%a1 &lt;b&gt;e. &lt;\/b&gt; It cannot be used to change the geometry of any duct, either directly or indirectly, other than the change to the distance between adjacent sections permitted by Article 3.6.3..
+							%a1 &lt;b&gt;f. &lt;\/b&gt; When viewed from the side of the car at any longitudinal vertical cross section, the physical point of rotation of the rearmost and uppermost closed section must be fixed and located no more than 20mm below the upper extremity and no more than 20mm forward of the rear extremity of the combined areas described in Articles 3.6.1 and 3.6.3 at all times.
+							%a1 &lt;b&gt;g. &lt;\/b&gt; The design is such that failure of the system will result in the uppermost closed section returning to the normal high incidence position.
+							%a1 &lt;b&gt;h. &lt;\/b&gt; Any alteration of the incidence of the uppermost closed section may only be commanded by direct driver input and controlled using the control electronics specified in Article 8.2.
+						%img2131230881
+						%img2131230882
+						%img2131230883
+						%img2131230884
+						%img2131230885
+						%r8.2,tech20,8,2
+	</string>
 </resources>

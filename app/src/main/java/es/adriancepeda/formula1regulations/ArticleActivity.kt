@@ -47,10 +47,10 @@ class ArticleActivity : AppCompatActivity() {
     }
 
     private fun showImages(images: List<String>, content: LinearLayout) {
-        Log.e(null, R.drawable.tech20_3_2_a.toString())
-        Log.e(null, R.drawable.tech20_3_2_b.toString())
-        Log.e(null, R.drawable.tech20_3_3_a.toString())
-        Log.e(null, R.drawable.tech20_3_3_b.toString())
+        Log.e(null, R.drawable.tech20_3_4_a.toString())
+        Log.e(null, R.drawable.tech20_3_4_b.toString())
+        Log.e(null, R.drawable.tech20_3_4_c.toString())
+        Log.e(null, R.drawable.tech20_3_4_d.toString())
         for (i in 1 until images.size){
             val image=images[i].replace("\\s".toRegex(),"")
             val imageView = ImageView(this).also {
