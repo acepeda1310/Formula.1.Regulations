@@ -1,6 +1,7 @@
 package es.adriancepeda.formula1regulations
 
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Html
@@ -57,7 +58,8 @@ class ArticleActivity : AppCompatActivity() {
                 it.setPadding(15,15,15,15)
                 val layoutParams:LinearLayout.LayoutParams=LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT)
                 it.layoutParams = layoutParams
-                it.setImageResource(image.toInt())
+                val imageNoOther=image.split("%o")
+                it.setImageResource(imageNoOther[0].toInt())
                 it.adjustViewBounds=true
             }
             content.addView(imageView)
@@ -90,11 +92,19 @@ class ArticleActivity : AppCompatActivity() {
                 try {
                     if (regulation == "tech20") {
                         val complete = resources.getStringArray(R.array.tech_20)
-                        val article = complete[separatedReferences[2].toInt() - 1]
+                        var article = complete[separatedReferences[2].toInt() - 1]
+                        val otherString=article.split("%o")
+                        if(otherString.size>1){
+                            for(i in 1 until otherString.size){
+                                val otherData2=otherString[i].replace("\\s".toRegex(),"")
+                                article=article.plus(resources.getString(otherData2.toInt()))
+                            }
+                        }
                         val separatedArticle = article.split("%s")
-                        completeRegulations = separatedArticle[separatedReferences[3].toInt() - 1]
+                        completeRegulations = separatedArticle[separatedReferences[3].toInt()]
                     }
                     val separatedRegulations = completeRegulations.split("%c")
+                    tvReferences.setTextColor(Color.BLUE)
                     tvReferences.setOnClickListener() {
                         val intent = Intent(this, ArticleActivity::class.java)
                         intent.putExtra("number", referenceTitle)
@@ -109,6 +119,7 @@ class ArticleActivity : AppCompatActivity() {
                     Log.e(null,"Non existent article")
                 }
             }
+            tvReferences.setBackgroundColor(Color.rgb(205,205,205))
             content.addView(tvReferences)
         }
     }

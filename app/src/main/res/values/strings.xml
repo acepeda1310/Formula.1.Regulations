@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Formula 1 Regulations</string>
-    <string name="tech">Technical</string>
-    <string name="sport">Sporting</string>
-    <string name="fin">Financial</string>
-    <string name="actualYear" translatable="false">2020</string>
-    <string name="nextYear" translatable="false">2021</string>
-    <string name="farFuture" translatable="false">2022</string>
-    <string name="techTitle">Formula 1 Technical Regulations</string>
-    <string name="sportTitle">Formula 1 Sporting Regulations</string>
-    <string name="finTitle">Formula 1 Financial Regulations</string>
+	<string name="app_name">Formula 1 Regulations</string>
+	<string name="tech">Technical</string>
+	<string name="sport">Sporting</string>
+	<string name="fin">Financial</string>
+	<string name="actualYear" translatable="false">2020</string>
+	<string name="nextYear" translatable="false">2021</string>
+	<string name="farFuture" translatable="false">2022</string>
+	<string name="techTitle">Formula 1 Technical Regulations</string>
+	<string name="sportTitle">Formula 1 Sporting Regulations</string>
+	<string name="finTitle">Formula 1 Financial Regulations</string>
 	<string-array name="tech_20">
 		<item>DEFINITIONS
 			<!--1.1-->%s Formula One Car
@@ -329,8 +329,260 @@
 						%img2131230880
 			%o2131755099
 		</item>
+		<item>WEIGHT
+			<!--4.1-->%s Minimum weight
+				%c The weight of the car, without fuel, must not be less than 746kg at all times during the Event.
+				%p If, when required for checking, a car is not already fitted with dry-weather tyres, it will be weighed on a set of dry-weather tyres selected by the FIA technical delegate.
+			<!--4.2-->%s Weight distribution
+				%c The weight applied on the front and rear wheels must not be less than the weight specified in Article 4.1 factored by 0.455 and 0.535 respectively at all times during the qualifying practice session. Rounding will be to nearest 0.5kg.
+				%p If, when required for checking, a car is not already fitted with dry-weather tyres, it will be weighed on a set of dry-weather tyres selected by the FIA technical delegate.
+				%r4.1,tech20,4,1
+			<!--4.3-->%s Weight of tyres
+				%c The weight limit specified in Article 4.1 and the factors specified in Article 4.2 will be adjusted up or down according to any differences (rounded up to the nearest 1kg for Article 4.1) between the total set and individual axle set weights respectively of the dry-weather tyres used in the Championship taking place in the calendar year referred to in the title and the preceding year’s Championship.
+				%r4.1,tech20,4,1
+				%r4.2,tech20,4,2
+			<!--4.4-->%s Ballast
+				%c Ballast can be used provided it is secured in such a way that tools are required for its removal. It must be possible to fix seals if deemed necessary by the FIA technical delegate.
+				%p Ballast designated for the sole purpose of achieving the driver weight specified in Article 4.6.2 must:
+					%a1 &lt;b&gt;a.&lt;\/b&gt; Be entirely located to the car between the front and rear extent of the cockpit entry template.
+					%a1 &lt;b&gt;b.&lt;\/b&gt; Be attached securely to the survival cell and sealed by the FIA.
+					%a1 &lt;b&gt;c.&lt;\/b&gt; Be clearly identified.
+				%p A nominal such weight of 10kg should be present for the impact test described in Article 16.3.
+				%r4.6,tech20,4,6
+				%r16.3,tech20,16,3
+			<!--4.5-->%s Adding during the race
+				%c With the exception of compressed gases, no substance may be added to the car during the race. If it becomes necessary to replace any part of the car during the race, the new part must not weigh any more than the original part.
+			<!--4.6-->%s Weight of the driver
+				%c &lt;b&gt;4.6.1. &lt;\/b&gt;The weight of the driver with his seat and driving equipment will be established by the FIA technical delegate at the first Event of the Championship, this reference weight may be amended at any time during the Championship season if deemed necessary by the FIA technical delegate. This reference weight will be used to establish the minimum weight of the driver and ballast referred to in Article 4.6.2 below.
+				%p &lt;b&gt;4.6.2. &lt;\/b&gt;The reference weight of the driver will be added to the weight of any ballast designated for this purpose and, at no time during the Event, may this be less than 80kg.
+		</item>
+		<item>POWER UNIT
+			<!--5.1-->%s Engine specification
+				%c &lt;b&gt;5.1.1. &lt;\/b&gt;Only 4-stroke engines with reciprocating pistons are permitted.
+				%p &lt;b&gt;5.1.2. &lt;\/b&gt;Engine cubic capacity must be 1600cc (+0\/-10cc).
+				%p &lt;b&gt;5.1.3. &lt;\/b&gt;Crankshaft rotational speed must not exceed 15000rpm.
+				%p &lt;b&gt;5.1.4. &lt;\/b&gt;Fuel mass flow must not exceed 100kg\/h.
+				%p &lt;b&gt;5.1.5. &lt;\/b&gt;Below 10500rpm the fuel mass flow must not exceed Q (kg\/h) = 0.009 N(rpm)+ 5.5.
+				%p &lt;b&gt;5.1.6. &lt;\/b&gt;At partial load, the fuel mass flow must not exceed the limit curve defined below:
+					%a1 &lt;b&gt;- &lt;\/b&gt;Q (kg\/h) = 10 when the engine power is below -50kW
+					%a1 &lt;b&gt;- &lt;\/b&gt;Q (kg\/h) = 0.257 x engine power (kW) + 22.85 when the engine power is above -50kW
+				%p &lt;b&gt;5.1.7. &lt;\/b&gt;Pressure charging may only be effected by the use of a sole single stage compressor linked to a sole single stage exhaust turbine by a shaft assembly parallel to the engine crankshaft and within 25mm of the car centre plane. The shaft must be designed so as to ensure that the shaft assembly, the compressor and the turbine always rotate about a common axis and at the same angular velocity, an electrical motor generator (MGU-H) may be directly coupled to it. The shaft may not be mechanically linked to any other device.
+				%p &lt;b&gt;5.1.8. &lt;\/b&gt;All engines must have six cylinders arranged in a 90° &lt;i&gt;V&lt;\/i&gt; configuration and the normal section of each cylinder must be circular.
+					%p All six cylinders must be of equal capacity.
+				%p &lt;b&gt;5.1.9. &lt;\/b&gt;Engines must have two inlet and two exhaust valves per cylinder.
+					%p Only reciprocating poppet valves with axial displacement are permitted.
+					%p The sealing interface between the moving valve component and the stationary engine component must be circular.
+				%p &lt;b&gt;5.1.10. &lt;\/b&gt;Engine exhaust gases may only exit the cylinder head through outlets outboard of the cylinder bore centre line and not from within the &lt;i&gt;V&lt;\/i&gt; centre.
+				%p &lt;b&gt;5.1.11. &lt;\/b&gt;The crankshaft may only have three connecting rod bearing journals.
+				%p &lt;b&gt;5.1.12. &lt;\/b&gt;An insert within a PU component is a minimal, non-dismountable part whose function is solely to locally support a function of this component. The total volume of inserts within the component cannot be more than 10% of the total volume of the component.
+				%p &lt;b&gt;5.1.13. &lt;\/b&gt;All power unit breather fluids may only vent to atmosphere and must pass through an orifice which is positioned rearward of the rear axle centre line and less than 400mm above the reference plane and less than 100mm from the car centre plane. No breather fluids may re-enter the power unit.
+			<!--5.2-->%s Other means of propulsion and energy recovery
+				%c &lt;b&gt;5.2.1. &lt;\/b&gt;The use of any device, other than the engine described in 5.1 above, and one MGU-K, to propel the car, is not permitted.
+					%r5.1,tech20,5,1
+				%p &lt;b&gt;5.2.2. &lt;\/b&gt;Energy flows, power and ES state of charge limits are defined in the energy flow diagram shown in Appendix 3 of these regulations.
+					%p When the car is on the track a lap will be measured on each successive crossing of the timing line, however, when entering the pits the lap will end, and the next one will begin, at the start of the pit lane (as defined in the F1 Sporting Regulations).
+					%p Electrical DC measurements will be used to verify that the energy and power requirements are being respected.
+					%p A fixed efficiency correction of 0.95 will be used to monitor the maximum MGU-K power.
+					%rAppendix_3,tech20,26,1
+				%p &lt;b&gt;5.2.3. &lt;\/b&gt;The MGU-K must be solely and permanently mechanically linked to the powertrain before the main clutch. This mechanical link must be of fixed speed ratio to the engine crankshaft.
+					%p The rotational speed of the MGU-K may not exceed 50,000rpm.
+					%p The weight of the MGU-K (as defined in line 12 of Appendix 2 to these regulations) may not be less than 7kg.
+					%p The maximum torque of the MGU-K may not exceed 200Nm. The torque will be referenced to the crankshaft speed and the fixed efficiency correction defined in Article 5.2.2 will be used to monitor the maximum MGU-K torque.
+					%p The laminate thickness of the MGU-K may not be less than 0.05mm.
+					%rAppendix_2,tech20,25,1
+				%p &lt;b&gt;5.2.4. &lt;\/b&gt;The MGU-H must be solely mechanically linked to the pressure charging system. This mechanical link must be of fixed speed ratio to the exhaust turbine and may be clutched.
+					%p The rotational speed of the MGU-H may not exceed 125,000rpm.
+					%p The weight of the MGU-H (as defined in line 14 of Appendix 2 to these regulations) may not be less than 4kg.
+					%rAppendix_2,tech20,25,1
+				%p &lt;b&gt;5.2.5. &lt;\/b&gt;Cars must be fitted with homologated sensors which provide all necessary signals to the FIA data logger in order to verify the requirements above are being respected.
+			<!--5.3-->%s Power unit dimensions
+				%c &lt;b&gt;5.3.1. &lt;\/b&gt;Cylinder bore diameter must be 80mm (+\/- 0.1mm).
+				%p &lt;b&gt;5.3.2. &lt;\/b&gt;The crankshaft centre line must lie on the car centre plane and 90mm (+\/-0.5mm) above the reference plane. The power unit may only transmit torque to the gearbox by means of a single output shaft that must be co-axial with the crankshaft. The output shaft must rotate clockwise when viewed from the front of the car.
+				%p &lt;b&gt;5.3.3. &lt;\/b&gt;Valve stem diameter must not be less than 4.95mm.
+				%p &lt;b&gt;5.3.4. &lt;\/b&gt;The crankshaft main bearing journal diameter (measured on the crankshaft) must not be less than 43.95 mm.
+				%p &lt;b&gt;5.3.5. &lt;\/b&gt;The crankshaft crank pin bearing journal diameter (measured on the crankshaft) must not be less than 37.95mm.
+				%p &lt;b&gt;5.3.6. &lt;\/b&gt;No cylinder of the engine may have a geometric compression ratio higher than 18.0.
+				%p &lt;b&gt;5.3.7. &lt;\/b&gt;All elements of the power unit specified in the relevant column of the table in Appendix 2 of these regulations must be installed in the union of the volumes that exist between two vertical planes parallel to C-C separated by 700mm and in a box 150mm long, 250mm wide and 800mm high which lies symmetrically about the car centre plane immediately ahead of the front vertical plane.
+					%rAppendix_2,tech20,25,1
+				%p &lt;b&gt;5.3.8. &lt;\/b&gt;Power unit mountings may only comprise six M12 studs for connection to the survival cell and six M12 studs for connection to the transmission. All studs must be used and may be fitted on the survival cell, power unit or transmission. The installed end of the studs must be M12 and the free end may be a different diameter.
+					%pThe mounting faces of the studs for connection to the survival cell must lie on the forward of the two planes described in Article 5.3.7 and be located at Y215\/Z15(2), Y340\/Z260(2) and Y175\/Z420(2).
+					%pThe mounting faces of the studs for connection to the transmission must lie on one vertical plane parallel to C-C and be located at Y100\/Z15(2), Y150\/Z140(2) and Y255\/Z345(2).
+					%pA tolerance of +\/- 0.2mm will be permitted on all of the above dimensions, all dimensions refer to the centre of the studs.
+					%pThe distance between the two planes is fixed at 480mm (+\/-0.2mm).
+					%pAny part which provides an additional load path from the survival cell to the gearbox, with a connection to the power unit, may only do so if this is incidental to its principal purpose.
+			<!--5.4-->%s Weight and centre of gravity
+				%c &lt;b&gt;5.4.1. &lt;\/b&gt;The overall weight of the power unit must be a minimum of 145kg.
+				%p &lt;b&gt;5.4.2. &lt;\/b&gt;The centre of gravity of the power unit may not lie less than 200mm above the reference plane.
+				%p &lt;b&gt;5.4.3. &lt;\/b&gt;The total weight of the part of the ES that stores energy, i.e. the cells (including any clamping plates) and electrical connections between cells, must be no less than 20kg and must not exceed 25kg.
+				%p &lt;b&gt;5.4.4. &lt;\/b&gt;The weight of a piston (with piston-pin, piston-pin retainers and piston rings) may not be less than 300g.
+				%p &lt;b&gt;5.4.5. &lt;\/b&gt;The weight of a connecting rod (with fasteners, small and big end bearings) may not be less than 300g.
+				%p &lt;b&gt;5.4.6. &lt;\/b&gt;The weight of the complete crankshaft assembly between the mid positions of the front and rear main bearing journals (including balance masses, bolts, bungs, O-rings between the boundaries), may not be less than 5300g. See drawing 8.
+					%rDrawing_8,tech20,24,8
+				%p &lt;b&gt;5.4.7. &lt;\/b&gt;When establishing conformity with Articles 5.4.1, 5.4.2 and Appendix 4 of the F1 Sporting Regulations, the homologated power unit perimeter will be defined in accordance with the table shown in Appendix 2 of these regulations.
+					%r5.4,sport20,5,4
+					%rAppendix_4,sport20,50,1
+					%rAppendix_2,tech20,25,1
+			<!--5.5-->%s Power unit torque demand
+				%c &lt;b&gt;5.5.1. &lt;\/b&gt;The only means by which the driver may control acceleration torque to the driven wheels is via a single foot (accelerator) pedal mounted inside the survival cell.
+				%p &lt;b&gt;5.5.2. &lt;\/b&gt;Designs which allow specific points along the accelerator pedal travel range to be identified by the driver or assist him to hold a position are not permitted.
+				%p &lt;b&gt;5.5.3. &lt;\/b&gt;At any given engine speed the driver torque demand map must be monotonically increasing for an increase in accelerator pedal position.
+				%p &lt;b&gt;5.5.4. &lt;\/b&gt;At any given accelerator pedal position and above 4,000rpm, the driver torque demand map must not have a gradient of less than – (minus) 0.045Nm/rpm.
+			<!--5.6-->%s Power unit control
+				%c &lt;b&gt;5.6.1. &lt;\/b&gt;The maximum delay allowed, computed from the respective signals as recorded by the ADR or ECU, between the accelerator pedal position input signal and the corresponding output demands being achieved is 50ms.
+				%p &lt;b&gt;5.6.2. &lt;\/b&gt;Teams may be required to demonstrate the accuracy of the power unit configurations used by the ECU.
+				%p &lt;b&gt;5.6.3. &lt;\/b&gt;Power unit control must not be influenced by clutch position, movement or operation.
+				%p &lt;b&gt;5.6.4. &lt;\/b&gt;The idle speed control target may not exceed 4,000rpm.
+				%p &lt;b&gt;5.6.5. &lt;\/b&gt;A number of power unit protections are available in the ECU.
+					%p A minimum of nine seconds hold time should be configured for the power unit protections enabled during qualifying and race. The configuration of the air tray fire detection and throttle failsafe are exceptionally unrestricted in order to allow each team to achieve the best level of safety.
+				%p &lt;b&gt;5.6.6. &lt;\/b&gt;The power unit must achieve the torque demanded by the FIA standard software.
+				%p &lt;b&gt;5.6.7. &lt;\/b&gt;Homologated sensors must be fitted which measure the torque generated at the power unit output shaft and the torques supplied to each driveshaft. These signals must be provided to the ECU.
+				%p &lt;b&gt;5.6.8. &lt;\/b&gt;Engine plenum (as defined in line 4 of Appendix 2 to these regulations) air temperature must be more than ten degrees centigrade above ambient temperature. When assessing compliance, the temperature of the air will be the lap average recorded by an FIA approved and sealed sensor located in an FIA approved location situated in the engine plenum, during every lap of the qualifying practice session and the race. The first lap of the race, laps carried out whilst the safety car is deployed, laps with a time at least 20% greater than the fastest lap of the session, pit in and out laps and any laps that are obvious anomalies (as judged by the technical delegate) will not be used to assess the average temperature. The ambient temperature will be that recorded by the FIA appointed weather service provider. This information will also be displayed on the timing monitors.
+					%rAppendix_2,tech20,25,1
+			<!--5.7-->%s Engine high rev limits
+				%c Engine high rev limits may vary for differing conditions provided all are contained within a band of 750rpm. However, a lower rev limit may be used when:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;The gearbox is in neutral.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;Stall prevention is active.
+					%a1 &lt;b&gt;c. &lt;\/b&gt;The driver clutch request is greater than 95% of the total available travel of the driver clutch actuation device, used only to protect the engine following a driver error.
+					%a1 &lt;b&gt;d. &lt;\/b&gt;An engine protection is active.
+					%a1 &lt;b&gt;e. &lt;\/b&gt;The bite point finder strategy is active.
+					%a1 &lt;b&gt;f. &lt;\/b&gt;The safety car is deployed or during the formation lap.
+				%p Except for the above conditions, power unit actuators may not be used to artificially control the power unit speed or alter the power unit response in a rev range more than 750rpm below the final rev limit.
+			<!--5.8-->%s Exhaust systems
+				%c &lt;b&gt;5.8.1. &lt;\/b&gt;With the exception of incidental leakage through joints (either into or out of the system) and power unit breather fluids, all and only the fluids entering the compressor inlet and fuel injectors must exit from the engine exhaust system.
+				%p &lt;b&gt;5.8.2. &lt;\/b&gt;Engine exhaust systems must have only a single turbine tailpipe exit and either one or two wastegate tailpipe exits which must all be rearward facing and through which all exhaust gases must pass. All and only the turbine exit exhaust gases must pass through the turbine tailpipe and all and only the wastegate exhaust gases must pass through the wastegate tailpipe(s). None of the tailpipes may be contained within any of the other tailpipes.
+				%p &lt;b&gt;5.8.3. &lt;\/b&gt;The cross-sectional area of the turbine tailpipe exit at the rearmost point of the turbine tailpipe must lie between 7500mm&#178; and 14000mm&#178;, and the total cross-sectional area of the wastegate tailpipe exit(s) at the rearmost point of the wastegate tailpipe(s) must lie between 1590mm&#178; and 2375mm&#178;. If there are two wastegate tailpipe exits they must be equal in area.
+				%p &lt;b&gt;5.8.4. &lt;\/b&gt;The last 150mm of each tailpipe must in its entirety:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;Form a thin-walled unobstructed right circular cylinder with its axis +\/- 5° to the car centre plane when viewed from above the car and between 0° and 5° (tail up) to the reference plane when viewed from the side of the car. The entire circumference of each exit should lie on a single plane normal to the tailpipe axis and be located at the rearmost extremity of the last 150mm of the tailpipe.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;Be located between 350mm and 550mm above the reference plane.
+					%a1 &lt;b&gt;c. &lt;\/b&gt;Be located no more than 100mm from the car centre plane.
+					%a1 &lt;b&gt;d. &lt;\/b&gt;Be positioned in order that the entire circumference of the exit of the tailpipe lies between two vertical planes parallel to C-C and which lie between 220mm and 235mm rearward of the rear wheel centre line.
+				%p &lt;b&gt;5.8.5. &lt;\/b&gt;There must be no bodywork lying within the right circular cylinders which:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;Share a common axis with that of the last 150mm of each tailpipe.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;Have a diameter 5mm greater than each tailpipe, starting at the exit of each tailpipe and extending rearwards as far as a point 600mm behind the rear wheel centre line.
+					%a1 &lt;b&gt;c. &lt;\/b&gt;Have a diameter 30mm greater than each tailpipe, starting 2mm rearwards of the exit of each tailpipe and extending rearwards as far as a point 600mm behind the rear wheel centre line.
+			<!--5.9-->%s Variable geometry systems
+				%c &lt;b&gt;5.9.1. &lt;\/b&gt;With the exception of devices needed for control of pressure charging systems, variable geometry exhaust systems are not permitted. No form of variable geometry turbine (VGT) or variable nozzle turbine (VNT) or any device to adjust the gas throat section at the inlet to the turbine wheel is permitted.
+				%p &lt;b&gt;5.9.2. &lt;\/b&gt;Variable valve timing and variable valve lift profile systems are not permitted.
+			<!--5.10-->%s Fuel systems
+				%c &lt;b&gt;5.10.1. &lt;\/b&gt;The pressure of the fuel supplied to the fuel injectors may not exceed 500bar. Only approved parts may be used and the list of parts approved by the FIA, and the approval procedure, may be found in the Appendix to the Technical Regulations.
+				%p &lt;b&gt;5.10.2. &lt;\/b&gt;There may only be one fuel injector per cylinder and no fuel injectors are permitted upstream of the intake valves or downstream of the exhaust valves. Only approved parts may be used and the list of parts approved by the FIA, and the approval procedure, may be found in the Appendix to the Technical Regulations.
+				%p &lt;b&gt;5.10.3. &lt;\/b&gt;All cars must be fitted with a single fuel flow sensor, wholly within the fuel tank, which has been manufactured by the FIA designated supplier to a specification determined by the FIA. This sensor may only be used as specified by the FIA. Furthermore, all fuel delivered to the power unit must pass through this homologated sensor, and must all be delivered to the combustion chambers by the fuel injectors described by Article 5.10.2.
+				%p &lt;b&gt;5.10.4. &lt;\/b&gt;Homologated sensors which directly measure the pressure and temperature of the fuel supplied to the fuel injectors must also be fitted, these signals must be supplied to the FIA data logger.
+				%p &lt;b&gt;5.10.5. &lt;\/b&gt;Any device, system or procedure the purpose and\/or effect of which is to increase the flow rate or to store and recycle fuel after the measurement point is prohibited.
+			<!--5.11-->%s Ignition systems
+				%c &lt;b&gt;5.11.1. &lt;\/b&gt;Ignition is only permitted by means of a single ignition coil and single spark plug per cylinder. No more than five sparks per cylinder per engine cycle are permitted.
+					%p The use of plasma, laser or other high frequency ignition techniques is forbidden.
+					%p Only approved ignition coils may be used and the list of parts approved by the FIA, and the approval procedure, may be found in the Appendix to the Technical Regulations.
+				%p &lt;b&gt;5.11.2. &lt;\/b&gt;Only conventional spark plugs that function by high tension electrical discharge across an exposed gap are permitted.
+					%p Spark plugs are not subject to the materials restrictions described in Articles 5.16 and 5.17.
+					%r5.16,tech20,5,16
+					%r5.17,tech20,5,17
+			<!--5.12-->%s Energy Recovery System (ERS)
+				%c &lt;b&gt;5.12.1. &lt;\/b&gt;The system will be considered shut down when no high voltage can be present on any external or accessible part of the ERS.
+					%pThe shutdown process must take no longer than two seconds from activation.
+					%pIt must be possible to shut down the ERS via the following means:
+						%a1 &lt;b&gt;a. &lt;\/b&gt;The switch required by Article 14.2.1.
+						%a1 &lt;b&gt;b. &lt;\/b&gt;The switches required by Article 14.2.2.
+						%a1 &lt;b&gt;c. &lt;\/b&gt;The switch or button required by Article 9.4.
+					%r9.4,tech20,9,4
+					%r14.2,tech20,14,2
+				%p &lt;b&gt;5.12.2. &lt;\/b&gt;The ERS must shut down when the ECU required by Article 8.2 initiates an anti-stall engine shut off.
+					%r8.2,tech20,8,2
+				%p &lt;b&gt;5.12.3. &lt;\/b&gt;All cars must be fitted with two ERS status lights which:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;Have been supplied by an FIA designated manufacturer and fitted to the car in accordance with the instructions in the Appendix to these regulations.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;Are in working order throughout the Event even if the main hydraulic, pneumatic or electrical systems on the car have failed.
+					%a1 &lt;b&gt;c. &lt;\/b&gt;Remain powered for at least 15 minutes if the car comes to rest with its engine stopped.
+					%a1 &lt;b&gt;d. &lt;\/b&gt;Are marked with a &lt;i&gt;HIGH VOLTAGE&lt;\/i&gt; symbol according to ISO3864 of at least 30mm along the triangle side and no more than 50mm away from the lights.
+				%p &lt;b&gt;5.12.4. &lt;\/b&gt;All cars must provide signals regarding the car operating and insulation states to the ADR in order to facilitate control of the ERS status lights.
+				%p &lt;b&gt;5.12.5. &lt;\/b&gt;The maximum peak voltage on the car must never exceed 1000V.
+				%p &lt;b&gt;5.12.6. &lt;\/b&gt;All elements of the power unit specified in Article 5.12.7 must be installed wholly within the survival cell.
+					%pThe total weight of these elements (The weight considered is the sum of the individual weights of these elements) must be greater than the minimum weight of the same elements determined between all the homologated power units at the start of the 2017 season.
+					%pThe volume occupied by these elements (The volume considered is the sum of the individual volumes occupied by these elements) must be greater than the minimum volume of the same elements determined between all the homologated power units at the start of the 2017 season.
+				%p &lt;b&gt;5.12.7. &lt;\/b&gt;The elements of the power unit that are considered for Article 5.12.6 are:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;ES elements as defined in lines 16 and 17 of Appendix 2 to these regulations.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;Any DC-DC converter connected to ES HV DC bus. Includes active parts, enclosure, brackets and supports.
+					%a1 &lt;b&gt;c. &lt;\/b&gt;CU-K (MGU-K control unit). Includes active parts, enclosure, brackets and supports.
+					%a1 &lt;b&gt;d. &lt;\/b&gt;CU-H (MGU-H control unit). Includes active parts, enclosure, brackets and supports.
+					%a1 &lt;b&gt;e. &lt;\/b&gt;HV DC connections between ES and CU-K\/CU-H\/DC-DC converter. Includes all conductors, insulation, EMC screening, mechanical and thermal shielding.
+					%rAppendix_2,tech20,25,1
+				%p &lt;b&gt;5.12.8. ERS minimum weight and volume&lt;\/b&gt;
+					%pThe procedure which will be used to determine the volume and weight of the power unit elements listed in Article 5.12.7 may be found in the Appendix to the Technical Regulations.
+					%pThe minimum values are:
+						%a1 &lt;b&gt;a. &lt;\/b&gt;Minimum volume: 22.0 l.
+						%a1 &lt;b&gt;b. &lt;\/b&gt;Minimum weight: 30.6kg.
+			<!--5.13-->%s Engine ancillaries
+				%c &lt;b&gt;5.13.1. &lt;\/b&gt;All coolant pumps, oil pumps, scavenge pumps, oil\/air separators, hydraulic pumps and fuel pumps delivering more than 10bar must be mechanically driven directly from the engine and\/or MGU-K with a fixed speed ratio.
+				%p &lt;b&gt;5.13.2. &lt;\/b&gt;Any pressure sensor used to measure pressure of any fluid necessary to ensure the power unit functions correctly at all times (including but not limited to coolant, oil, fuel and air) must be manufactured by an FIA designated supplier to a specification determined by the FIA. Cylinder pressure sensors are excluded from this requirement.
+				%p &lt;b&gt;5.13.3. &lt;\/b&gt;With the exception of exhaust temperature sensors and temperature sensors embedded in electronic boxes, any temperature sensor used to measure temperature of any fluid necessary to ensure the power unit functions correctly at all times (including but not limited to coolant, oil, fuel and air) must be manufactured by an FIA designated supplier to a specification determined by the FIA.
+			<!--5.14-->%s Engine intake air
+				%c &lt;b&gt;5.14.1. &lt;\/b&gt;With the exception of incidental leakage through joints or cooling ducts in the inlet system (either into or out of the system), all air entering the engine must enter the bodywork through a maximum of two inlets which are located:
+						%a1 &lt;b&gt;a. &lt;\/b&gt;Between the front of the cockpit entry template and a point 500mm forward of the rear wheel centre line longitudinally.
+						%a1 &lt;b&gt;b. &lt;\/b&gt;No less than 200mm above the reference plane vertically.
+						%a1 &lt;b&gt;c. &lt;\/b&gt;On vertical cross-sections parallel to C-C.
+					%pFurthermore, any such inlets must be visible in their entirety when viewed from the front of the car without the driver seated in the car and with the secondary roll structure and associated fairing removed (see Article 15.2.6).
+					%r15.2,tech20,15,2
+				%p &lt;b&gt;5.14.2. &lt;\/b&gt;The addition of any substance other than fuel, as described in Article 5.10.3, into the air destined for combustion is forbidden. Exhaust gas recirculation is forbidden.
+					%r5.10,tech20,5,10
+			<!--5.15-->%s Materials and Construction - Definitions
+				%c &lt;b&gt;5.15.1. &lt;\/b&gt;X Based Alloy (e.g. Ni based alloy) – X must be the most abundant element in the alloy on a %w\/w basis. The minimum possible weight percent of the element X must always be greater than the maximum possible of each of the other individual elements present in the alloy.
+				%p &lt;b&gt;5.15.2. &lt;\/b&gt;X-Y Based Alloy (e.g. Al-Cu based alloy) – X must be the most abundant element as in Article 5.15.1 above. In addition element Y must be the second highest constituent (%w\/w), after X in the alloy. The mean content of Y and all other alloying elements must be used to determine the second highest alloying element (Y).
+				%p &lt;b&gt;5.15.3. &lt;\/b&gt;Intermetallic Materials (e.g. TiAl, NiAl, FeAl, Cu&lt;sub font-size:smaller&gt;3&lt;\/sub&gt;Au, NiCo) – These are materials where the material is based upon intermetallic phases, i.e. the matrix of the material consists of greater than 50%v\/v intermetallic phase(s). An intermetallic phase is a solid solution between two or more metals exhibiting either partly ionic or covalent, or metallic bonding with a long range order, in a narrow range of composition around the stoichiometric proportion.
+				%p &lt;b&gt;5.15.4. &lt;\/b&gt;Composite Materials – These are materials where a matrix material is reinforced by either a continuous or discontinuous phase. The matrix can be metallic, ceramic, polymeric or glass based. The reinforcement can be present as long fibres (fibre length greater than 13mm) or short fibres, whiskers and particles (discontinuous reinforcement). Nanoscale reinforced materials are to be considered as composites. (a reinforcement is considered to be nanoscale if any dimension of the reinforcement is less than 100nm.)
+				%p &lt;b&gt;5.15.5. &lt;\/b&gt;Metal Matrix Composites (MMC\'s) – These are composite materials with a metallic matrix containing a phase of greater than 2%v\/v which is not soluble in the liquid phase of the metallic matrix.
+				%p &lt;b&gt;5.15.6. &lt;\/b&gt;Ceramic Materials (e.g. Al&lt;sub font-size:smaller&gt;2&lt;\/sub&gt;O&lt;sub font-size:smaller&gt;3&lt;\/sub&gt;, SiC, B&lt;sub font-size:smaller&gt;4&lt;\/sub&gt;C, Ti&lt;sub font-size:smaller&gt;5&lt;\/sub&gt;Si&lt;sub font-size:smaller&gt;3&lt;\/sub&gt;, SiO&lt;sub font-size:smaller&gt;2&lt;\/sub&gt;, Si&lt;sub font-size:smaller&gt;3&lt;\/sub&gt;N&lt;sub font-size:smaller&gt;4&lt;\/sub&gt;) – These are inorganic, non-metallic solids.
+			<!--5.16-->%s Materials and construction - General
+				%c &lt;b&gt;5.16.1. &lt;\/b&gt;Unless explicitly permitted for a specific application, the following materials may not be used anywhere on the power unit:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;Magnesium based alloys.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;Metal Matrix Composites (MMC\'s).
+					%a1 &lt;b&gt;c. &lt;\/b&gt;Intermetallic materials.
+					%a1 &lt;b&gt;d. &lt;\/b&gt;Alloys containing more than 5% by weight of Platinum, Ruthenium, Iridium or Rhenium.
+					%a1 &lt;b&gt;e. &lt;\/b&gt;Copper based alloys containing more than 2.75% Beryllium.
+					%a1 &lt;b&gt;f. &lt;\/b&gt;Any other alloy class containing more than 0.25% Beryllium.
+					%a1 &lt;b&gt;g. &lt;\/b&gt;Tungsten base alloys.
+					%a1 &lt;b&gt;h. &lt;\/b&gt;Ceramics and ceramic matrix composites.
+				%p &lt;b&gt;5.16.2. &lt;\/b&gt;The restrictions in Article 5.16.1 do not apply to coatings provided the total coating thickness does not exceed 25% of the section thickness of the underlying base material in all axes. In all cases, other than under Article 5.16.3(b), the relevant coating must not exceed 0.8mm.
+					%pWhere the coating is based on Gold, Platinum, Ruthenium, Iridium or Rhenium, the coating thickness must not exceed 0.035mm.
+				%p &lt;b&gt;5.16.3. &lt;\/b&gt;The restrictions in Article 5.16.1(h) do not apply to the following applications:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;Any component whose primary purpose is for electrical or thermal insulation.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;Any coating whose primary purpose is for thermal insulation of the outside of the exhaust system.
+				%p &lt;b&gt;5.16.4. &lt;\/b&gt;Magnesium based alloys, where permitted, must be available on a non-exclusive basis and under normal commercial terms to all competitors. Only those alloys covered by ISO16220 or ISO3116 and approved by the FIA may be used.
+			<!--5.17-->%s Materials and construction - Components
+				%c &lt;b&gt;5.17.1. &lt;\/b&gt;Pistons must respect Article 5.16. Titanium alloys are not permitted.
+					%r5.16,tech20,5,16
+				%p &lt;b&gt;5.17.2. &lt;\/b&gt;Piston pins must be manufactured from an iron based alloy and must be machined from a single piece of material.
+				%p &lt;b&gt;5.17.3. &lt;\/b&gt;Connecting rods must be manufactured from iron or titanium based alloys and must be machined from a single piece of material with no welded or joined assemblies (other than a bolted big end cap or an interfered small end bush).
+				%p &lt;b&gt;5.17.4. &lt;\/b&gt;Crankshafts must be manufactured from an iron based alloy.
+					%pNo welding is permitted between the front and rear main bearing journals.
+					%pNo material with a density exceeding 18,400 kg\/m&#179; may be assembled to the crankshaft.
+					%pThese parts assembled to the crankshaft may be manufactured in a Tungsten based material.
+				%p &lt;b&gt;5.17.5. &lt;\/b&gt;Camshafts must be manufactured from an iron based alloy.
+					%pEach camshaft and lobes must be machined from a single piece of material.
+					%pNo welding is allowed between the front and rear bearing journals.
+				%p &lt;b&gt;5.17.6. &lt;\/b&gt;Valves must be manufactured from intermetallic materials or from alloys based on Iron, Nickel, Cobalt or Titanium. Hollow stems (e.g. sodium, or similar, filled for cooling) are permitted.
+					%pIn addition, the restrictions detailed in Articles 5.16.2 and 15.1.2 do not apply to valves.
+					%r5.16,tech20,5,16
+					%r15.1,tech20,15,1
+				%p &lt;b&gt;5.17.7. &lt;\/b&gt;Reciprocating and rotating components:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;Reciprocating and rotating components must not be manufactured from graphitic matrix, metal matrix composites or ceramic materials, this restriction does not apply to the clutch and any seals.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;Rolling elements of rolling element bearings must be manufactured from an iron based alloy or from a ceramic material.
+					%a1 &lt;b&gt;c. &lt;\/b&gt;All timing gears between the crankshaft and camshafts (including hubs) must be manufactured from an iron based alloy.
+					%a1 &lt;b&gt;d. &lt;\/b&gt;High pressure fuel pumps elements may be manufactured from a ceramic material.
+					%a1 &lt;b&gt;e. &lt;\/b&gt;Torsional damper elements may be manufactured in a Tungsten based material.
+				%p &lt;b&gt;5.17.8. &lt;\/b&gt;Static components:
+					%a1 &lt;b&gt;a. &lt;\/b&gt;Other than inserts within them, engine crankcases including sump, cylinder heads and cylinder head cam covers must be manufactured from aluminium or iron alloys.
+					%a1 &lt;b&gt;b. &lt;\/b&gt;No composite materials or metal matrix composites are permitted either for the whole component or locally.
+					%a1 &lt;b&gt;c. &lt;\/b&gt;Other than parts listed in a) above, magnesium based alloys are permitted for static parts which may not be changed without incurring a penalty under Article 5.22.
+					%a1 &lt;b&gt;d. &lt;\/b&gt;Any metallic structure whose primary or secondary function is to retain lubricant or coolant within the engine must be manufactured from an iron based alloy, an aluminium alloy or a magnesium based alloy if permitted by Article 5.17.8(b).
+					%a1 &lt;b&gt;e. &lt;\/b&gt;All threaded fasteners, other than the two exceptions below, must be manufactured from an alloy based on Cobalt, Iron or Nickel. The exceptions are:
+						%a2 &lt;b&gt;i. &lt;\/b&gt;Fasteners whose primary function requires them to be an electrical insulator may be manufactured from ceramic or polymeric materials.
+						%a2 &lt;b&gt;ii. &lt;\/b&gt;Fasteners that are used in electronic control units may be manufactured from aluminium or copper based alloys or polymeric (plastic) materials.
+					%a1Composite materials are not permitted.
+					%a1 &lt;b&gt;f. &lt;\/b&gt;Valve seat inserts, valve guides and any other bearing component may be manufactured from metallic infiltrated pre-forms with other phases which are not used for reinforcement.
+					%a1 &lt;b&gt;g. &lt;\/b&gt;Ballast may be manufactured in a Tungsten based material.
+					%r5.22,tech20,5,22
+		</item>
 	</string-array>
-    <string name="techTitle20">2020 Formula 1 Technical Regulations</string>
+	<string name="techTitle20">2020 Formula 1 Technical Regulations</string>
 	<string name="references">References</string>
 	<string name="tech20_3_1" translatable="false">
 				<!--3.6-->%s Rear wing and rear impact structure
@@ -388,5 +640,124 @@
 						%img2131230884
 						%img2131230885
 						%r8.2,tech20,8,2
+		<!--3.7-->%s Floor and diffuser
+					%c Compliance with this Article must be demonstrated with all unsprung parts of the car removed.
+					%p &lt;b&gt;3.7.1. Step and reference planes&lt;\/b&gt;
+						%p With the parts referred to in Articles 3.7.10, 3.7.11 and 3.7.12 removed all sprung parts of the car situated from 430mm behind the front wheel centre line to 175mm in front of the rear wheel centre line, and which are visible from underneath, must form surfaces which lie on one of two parallel planes, the reference plane or the step plane.
+						%p The step plane must be 50mm above the reference plane.
+						%p Additionally, the surface formed by all parts lying on the reference plane must:
+							%a1 &lt;b&gt;a. &lt;\/b&gt;Cover the area which is bounded by two transversal lines, one 430mm behind the front wheel centre line and the other on the rear wheel centre line, and two longitudinal lines 150mm either side of the car centre plane.
+							%a1 &lt;b&gt;b. &lt;\/b&gt;Have a maximum width of 500mm.
+							%a1 &lt;b&gt;c. &lt;\/b&gt;Be symmetrical about the car centre plane.
+							%a1 &lt;b&gt;d. &lt;\/b&gt;Have a 50mm radius (+\/-2mm) on each front corner when viewed from directly beneath the car, this being applied after the surface has been defined.
+					%p &lt;b&gt;3.7.2. Transition&lt;\/b&gt;
+						%p The surface lying on the reference plane must be joined around its periphery to the surfaces lying on the step plane by a vertical transition. If there is no surface visible on the step plane vertically above any point around the periphery of the reference plane, this transition is not necessary.
+					%p &lt;b&gt;3.7.3. Boundaries&lt;\/b&gt;
+						%pThe surface lying on the reference plane may be curved upwards at its boundaries with an arc of constant curvature whose radius of curvature is no greater than 25mm, with no inflection, which is tangential to the surface and applied perpendicular to the boundary. In no case may the arc start further than 25mm from the boundary (when measured on the surface and perpendicular to this boundary).
+						%pWhere the vertical transition meets the surfaces on the step plane a radius no greater than 25mm is permitted (a radius in this context will be considered as an arc of constant curvature applied perpendicular to the boundary and tangential to both surfaces).
+						%pThe surfaces lying on the step plane which do not meet one of the vertical transitions may be curved upwards at their boundaries with an arc whose radius of curvature is no greater than 100mm at any point, with no inflection, which is tangential to the surface and applied perpendicular to the boundary. In no case may the arc start further than 100mm from the boundary (when measured on the surface and perpendicular to this boundary).
+						%pThe surface lying on the reference plane, the surfaces lying on the step plane, the vertical transitions between them and any surfaces rearward of the surfaces lying on the reference or step planes, must first be fully defined before any radius can be applied or the parts referred to in Articles 3.7.10, 3.7.11 and 3.7.12 fitted. Any radius applied is still considered part of the relevant surface.
+					%p &lt;b&gt;3.7.4. Floor construction&lt;\/b&gt;
+						%pAll parts lying on the reference and step planes, in addition to the transition between the two planes, must produce uniform, solid, hard, continuous, rigid (no degree of freedom in relation to the unit comprising the survival cell/power unit/gearbox), impervious surfaces under all circumstances.
+					%p &lt;b&gt;3.7.5. Tolerances&lt;\/b&gt;
+						%pTo help overcome any possible manufacturing problems, and not to permit any design which may contravene any part of these regulations, the following dimensional tolerances are permitted on bodywork situated between 430mm behind the front wheel centre line and the rear wheel centre line: a vertical tolerance of +\/- 3mm is permissible across the surfaces lying on the reference and step planes and a horizontal tolerance of 3mm is permitted when assessing whether a surface is visible from beneath the car.
+					%p &lt;b&gt;3.7.6. Diffuser width&lt;\/b&gt;
+						%pThe width of bodywork behind the rear wheel centre line and less than 200mm above the reference plane must not exceed 1050mm.
+					%p &lt;b&gt;3.7.7. Diffuser length&lt;\/b&gt;
+						%pNo part of the car between 100mm and 525mm from the car centre plane and less than 200mm above the reference plane may be more than 350mm behind the rear wheel centre line.
+					%p &lt;b&gt;3.7.8. Diffuser height and construction&lt;\/b&gt;
+						%a1 &lt;b&gt;a. &lt;\/b&gt;No bodywork which is visible from beneath the car which lies between 175mm forward of the rear wheel centre line and 350mm rearward of the rear wheel centre line and is less than 450mm above the reference plane may be more than 175mm above the reference plane.
+						%a1Additionally, any bodywork in this area must produce uniform, solid, hard, continuous (no fully enclosed holes), rigid (no degree of freedom in relation to the unit comprising the survival cell\/power unit\/gearbox), impervious surfaces under all circumstances.
+						%a1 &lt;b&gt;b. &lt;\/b&gt;All sprung parts of the car situated behind a line 175mm in front of the rear wheel centre line, which are visible from underneath and are more than 250mm from the car centre plane, must be at least 50mm above the reference plane.
+					%p &lt;b&gt;3.7.9. Continuity&lt;\/b&gt;
+						%a1 &lt;b&gt;a. &lt;\/b&gt;In an area lying 450mm or less from the car centre plane, and from 450mm forward of the plane C-C to 350mm rearward of the rear wheel centre line, any intersection of any bodywork visible from beneath the car with a lateral or longitudinal vertical plane should form one continuous line which is visible from beneath the car.
+						%a1 &lt;b&gt;b. &lt;\/b&gt;In an area lying 700mm or less from the car centre plane, and from 450mm forward of the plane C-C to 350mm forward of the rear wheel centre line, any intersection of any bodywork visible from beneath the car with a lateral or longitudinal vertical plane should form one continuous line which is visible from beneath the car.
+					%p &lt;b&gt;3.7.10. Plank&lt;\/b&gt;
+						%pBeneath the surface formed by all parts lying on the reference plane, a rectangular plank, with a 50mm radius (+\/-2mm) on each front corner, must be fitted. This plank may comprise no more than three pieces, the forward one of which may not be any less than 900mm in length, but must:
+							%a1 &lt;b&gt;a. &lt;\/b&gt;Extend longitudinally from a point lying 430mm behind the front wheel centre line to the rear wheel centre line.
+							%a1 &lt;b&gt;b. &lt;\/b&gt;Have a width of 300mm with a tolerance of +\/- 2mm.
+							%a1 &lt;b&gt;c. &lt;\/b&gt;Be made from an homogeneous material with a specific gravity between 1.3 and 1.45, or if pocketed be made from a bonded assembly the upper 0.5mm of which must have a specific gravity of between 1.3 and 1.65 and the remainder, excluding pockets, be made from an homogeneous material with a specific gravity of between 1.3 and 1.45.
+							%a1 &lt;b&gt;d. &lt;\/b&gt;Have a thickness of 10mm with a tolerance of +\/-1mm.
+							%a1 &lt;b&gt;e. &lt;\/b&gt;Have a uniform thickness when new.
+							%a1 &lt;b&gt;f. &lt;\/b&gt;With the exception of the area lying between 400mm and 800mm forward of the plane C-C, pocketing of the lower 9.5mm of the plank from above is permitted more than 630mm behind the front wheel centre line. However, the pocket depth may not reduce the remaining plank material thickness to less than 2mm from either the lowest surface below the reference plane when new or the lower surface of any recesses necessary to fit the skids permitted by Article 3.7.11. Furthermore, the periphery of any pocket, in any horizontal plane parallel to the reference plane, must be not less than 10mm from either the edges of the plank or any holes or recesses in the plank. In vertical cross section the internal pocket fillet radii must be at least 3mm and in horizontal cross section 10mm. Pockets may only be filled with a material having a specific gravity of less than 0.25.
+							%a1 &lt;b&gt;g. &lt;\/b&gt;Have no other holes or cut outs other than those necessary to fit the skids permitted by Article 3.7.11 or the fasteners permitted by Article 3.7.12, or those holes specifically mentioned in h) below.
+							%a1 &lt;b&gt;h. &lt;\/b&gt;Have seven precisely placed holes the positions of which are detailed in Drawing 1. In order to establish the conformity of the plank assembly after use, its thickness will only be measured in the four 50mm diameter holes and the two forward 80mm diameter holes, regardless of whether plank or skid material is present (see Article 3.7.11(a)).
+							%a1 Four further 10mm diameter holes are permitted provided their sole purpose is to allow access to the bolts which secure the Accident Data Recorder to the survival cell.
+							%a1 &lt;b&gt;i. &lt;\/b&gt;Be fixed symmetrically about the car centre plane in such a way that no air may pass between the complete plank assembly and the surface formed by the parts lying on the reference plane.
+						%pThe lower edge of the periphery of the plank may be chamfered at an angle of 30° to a depth of 8mm, the trailing edge however may be chamfered over a distance of 200mm to a depth of 8mm.
+					%p &lt;b&gt;3.7.11. Skids&lt;\/b&gt;
+						%pThe lower surface of the plank may be fitted with flush mounted metal skids which:
+							%a1 &lt;b&gt;a. &lt;\/b&gt;May only be fitted in place of plank material.
+							%a1 &lt;b&gt;b. &lt;\/b&gt;Have a total area no greater than 20000mm&#178; when viewed from directly beneath the car.
+							%a1 &lt;b&gt;c. &lt;\/b&gt;Are no greater than 4000mm&#178; in area individually when viewed from directly beneath the car.
+							%a1 &lt;b&gt;d. &lt;\/b&gt;Are fitted in order that their entire lower surfaces are visible from directly beneath the car.
+							%a1 &lt;b&gt;e. &lt;\/b&gt;Must have a minimum cross sectional thickness of 15mm across its external boundaries in plan view.
+							%a1The minimum wall thickness between an internal fixing hole and the external boundaries of the skid must be no less than 7.5mm.
+							%a1 &lt;b&gt;f. &lt;\/b&gt;Must have an upper surface no more than 3mm below the reference plane.
+							%a1 &lt;b&gt;g. &lt;\/b&gt;Must be designed such that they are secured to the car using the fasteners described in Article 3.7.12 and that, when viewed from directly beneath the car, no part of the skid is more than 50mm from the centre line of a fastener which passes through that skid.
+							%a1 &lt;b&gt;h. &lt;\/b&gt;Must be made from Titanium alloy.
+					%p &lt;b&gt;3.7.12. Plank and skids mounting&lt;\/b&gt;
+						%pThe plank and skids must be fixed to the car using fasteners which:
+							%a1 &lt;b&gt;a. &lt;\/b&gt;Are no smaller than M6 and are made from grade 12.9 steel.
+							%a1 &lt;b&gt;b. &lt;\/b&gt;If used to attach a skid to the car, must employ at least 1 fastener per 1,000mm&#178; of skid area.
+							%a1 &lt;b&gt;c. &lt;\/b&gt;If used to attach a skid to the car, the team must be able to show by calculation that the shanks of the fasteners (which may be no less than 6mm diameter) are the weakest point in the attachment of the skids to the car.
+							%a1 &lt;b&gt;d. &lt;\/b&gt;May use a load spreading washer if required.
+						%pThe total area of the fasteners and any load spreading washers employed with them when viewed from directly beneath the car must be less than 7,500mm&#178;. The area of any single fastener plus its load-spreading washer may not exceed 500mm&#178;.
+						%pNo part of any fastener or load-spreading washer may be more than 8mm below the reference plane. For the avoidance of doubt, the skids referred to in Article 3.7.11 will not be treated as load spreading washers.
+						%img2131230886
+						%img2131230887
+						%img2131230888
+		<!--3.8-->%s Aerodynamic influence
+					%c With the exception of the parts described in Articles 11.4, 11.5 and 11.6, and the rear view mirrors described in Article 14.3, any specific part of the car influencing its aerodynamic performance:
+						%a1 &lt;b&gt;a. &lt;\/b&gt;Must comply with the rules relating to bodywork.
+						%a1 &lt;b&gt;b. &lt;\/b&gt;Must be rigidly secured to the entirely sprung part of the car (rigidly secured means not having any degree of freedom).
+					%p With the exception of the driver adjustable bodywork described in Article 3.6.8 (in addition to minimal parts solely associated with its actuation) and the parts described in Articles 11.4, 11.5 and 11.6, any specific part of the car influencing its aerodynamic performance must remain immobile in relation to the sprung part of the car.
+					%p Any device or construction that is designed to bridge the gap between the sprung part of the car and the ground is prohibited under all circumstances.
+					%p No part having an aerodynamic influence and no part of the bodywork, with the exception of the parts referred to in Articles 3.7.10, 3.7.11 and 3.7.12, may under any circumstances be located below the reference plane.
+					%p With the exception of the parts necessary for the adjustment described in Article 3.6.8, any car system, device or procedure which uses driver movement as a means of altering the aerodynamic characteristics of the car is prohibited.
+					%r3.6,tech20,3,6
+					%r3.7,tech20,3,7
+					%r11.4,tech20,11,4
+					%r11.5,tech20,11,5
+					%r11.6,tech20,11,6
+					%r14.3,tech20,14,3
+		<!--3.9-->%s Bodywork flexibility
+					%c &lt;b&gt;3.9.1.&lt;\/b&gt; Bodywork may deflect no more than 15mm vertically when a 1000N load is applied vertically to it at points 700mm and 1000mm forward of the front wheel centre line and 895mm from the car centre plane. The load will be applied symmetrically to both sides of the car, and in a downward direction using a 50mm diameter ram on a rectangular adapter measuring 400mm x 150mm. This adapter must be supplied by the team and:
+							%a1 &lt;b&gt;a. &lt;\/b&gt;Have a flat top surface without recesses.
+							%a1 &lt;b&gt;b. &lt;\/b&gt;Be fitted to the car so as to apply the full load to the bodywork at the test point and not to increase the rigidity of the parts being tested.
+							%a1 &lt;b&gt;c. &lt;\/b&gt;Be placed with the inner 400mm edge parallel to the car centre plane and displaced from it by 820mm.
+							%a1 &lt;b&gt;d. &lt;\/b&gt;Be placed with its forward edge 1050mm forward of the front wheel centre line.
+						%pThe deflection will be measured along the loading axis at the bottom of the bodywork at this point and relative to the reference plane.
+						%pThe same test described in the present Article will be also applied asymmetrically (i.e. on the one side of the car only), and in this case the bodywork may not deflect more than 20mm.
+					%p &lt;b&gt;3.9.2.&lt;\/b&gt; Bodywork may deflect no more than 10mm vertically when a 500N load is applied vertically to it 450mm forward of the rear wheel centre line and 650mm from the car centre plane. The load will be applied in a downward direction using a 50mm diameter ram and an adapter of the same size. Teams must supply the latter when such a test is deemed necessary.
+					%p &lt;b&gt;3.9.3.&lt;\/b&gt; Bodywork may deflect by no more than one degree horizontally when a load of 1000N is applied simultaneously to its extremities in a rearward direction 825mm above the reference plane and 20mm forward of the forward edge of the rear wing endplate at 825mm above the reference plane.
+					%p &lt;b&gt;3.9.4.&lt;\/b&gt; Bodywork may deflect no more than 3mm vertically when a 500N load is applied simultaneously to each side of it 250mm behind the rear wheel centre line, 375mm from the car centre plane and 890mm above the reference plane. The deflection will be measured at the outer extremities of the bodywork at a point 395mm behind the rear wheel centre line.
+						%pThe load will be applied in a downward direction through pads measuring 200mm x 100mm which conform to the shape of the bodywork beneath them, and with their uppermost horizontal surface 890mm above the reference plane. The load will be applied to the centre of area of the pads. Teams must supply the latter when such a test is deemed necessary.
+					%p &lt;b&gt;3.9.5.&lt;\/b&gt; Bodywork may deflect no more than 5mm vertically when a 4000N load is applied vertically to it at three different points which lie on the car centre plane and 100mm either side of it. Each of these loads will be applied in an upward direction at a point 480mm rearward of the front wheel centre line using a 50mm diameter ram in the two outer locations and a 70mm diameter ram on the car centre plane.
+						%pStays or structures between the front of the bodywork lying on the reference plane and the survival cell may be present for this test, provided they are completely rigid and have no system or mechanism which allows non-linear deflection during any part of the test.
+						%pFurthermore, the bodywork being tested in this area may not include any component which is capable of allowing more than the permitted amount of deflection under the test load (including any linear deflection above the test load), such components could include, but are not limited to:
+							%a1 &lt;b&gt;a. &lt;\/b&gt;Joints, bearings pivots or any other form of articulation.
+							%a1 &lt;b&gt;b. &lt;\/b&gt;Dampers, hydraulics or any form of time dependent component or structure.
+							%a1 &lt;b&gt;c. &lt;\/b&gt;Buckling members or any component or design which may have any non-linear characteristics.
+							%a1 &lt;b&gt;d. &lt;\/b&gt;Any parts which may systematically or routinely exhibit permanent deformation.
+					%p &lt;b&gt;3.9.6.&lt;\/b&gt; The uppermost aerofoil element lying behind the rear wheel centre line may deflect no more than 7mm horizontally when a 500N load is applied horizontally. The load will be applied 870mm above the reference plane at three separate points which lie on the car centre plane and 270mm either side of it. The loads will be applied in a rearward direction using a suitable 25mm wide adapter which must be supplied by the relevant team.
+					%p &lt;b&gt;3.9.7.&lt;\/b&gt; The forward-most aerofoil element lying behind the rear wheel centre line and which lies more than 630mm above the reference plane may deflect no more than 2mm vertically when a 200N load is applied vertically. The load will be applied in line with the trailing edge of the element at any point across its width.
+						%pThe loads will be applied using a suitable adapter, supplied by the relevant team, which:
+							%a1 &lt;b&gt;a. &lt;\/b&gt;May be no more than 50mm wide.
+							%a1 &lt;b&gt;b. &lt;\/b&gt;Which extends no more than 10mm forward of the trailing edge.
+							%a1 &lt;b&gt;c. &lt;\/b&gt;Incorporates an 8mm female thread in the underside.
+					%p &lt;b&gt;3.9.8.&lt;\/b&gt;Any part of the trailing edge of any front wing flap may deflect no more than 5mm, when measured along the loading axis, when a 60N point load is applied normal to the flap.
+					%p &lt;b&gt;3.9.9.&lt;\/b&gt;In order to ensure that the requirements of Article 3.8 are respected, the FIA reserves the right to introduce further load/deflection tests on any part of the bodywork which appears to be (or is suspected of), moving whilst the car is in motion.
+					%r3.8,tech20,3,8
+		<!--3.10-->%s Bodywork construction
+					%c &lt;b&gt;3.10.1.&lt;\/b&gt; In order to avoid the spread of debris on the track following an accident, the outer skins of the front wing endplates and any turning vanes in the vicinity of the front wheels (and any similarly vulnerable bodywork parts in this area), must be made predominantly from materials which are included for the specific purpose of containing debris.
+					%p The FIA must be satisfied that all such parts are constructed in order to achieve the stated objective.
 	</string>
 </resources>
+
+
+
+
+
+
+
